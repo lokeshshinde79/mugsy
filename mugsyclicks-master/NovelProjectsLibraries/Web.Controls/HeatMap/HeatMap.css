@@ -1,0 +1,10 @@
+﻿#HeatmapBox { width:100%; background:#999; height:70px; border-bottom:5px solid #000; display:none; }
+#HeatmapBox #Content { color:#000; font:12px/14px Arial; padding:0 10px; }
+#HeatmapBox h1 { color:Black; font-weight:bold; font-size:14px; line-height:14px; padding:10px 5px 15px 5px; margin:0; }
+#HeatmapBox .ClickText { float:right; width:180px; padding-top:5px; display:none; }
+.heatmap { position:absolute; z-index:500; top:75px; left:0; clear:both; }
+* html .heatmap { width:100%; height:100%; }
+form { margin-top:0; padding-top:0; }
+
+#LoadingPopup.npContainer { display:none; position:absolute; left:50%; top:15%; background:#FFF; color:#333; border:1px dotted black; padding:10px; }
+#LoadingPopup .npContent { padding:10px; }

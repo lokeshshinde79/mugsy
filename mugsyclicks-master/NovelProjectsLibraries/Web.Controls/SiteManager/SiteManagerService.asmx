@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" Class="NovelProjects.Web.SiteManagerService" CodeBehind="SiteManagerService.asmx.cs" %>

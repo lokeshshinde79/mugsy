@@ -1,0 +1,5 @@
+E:\Mugsy\ProjectCode\branches\test\WS_Taxes\obj\Release\ResolveAssemblyReference.cache
+E:\Mugsy\ProjectCode\branches\test\WS_Taxes\bin\WS_Taxes.dll
+E:\Mugsy\ProjectCode\branches\test\WS_Taxes\bin\WS_Taxes.pdb
+E:\Mugsy\ProjectCode\branches\test\WS_Taxes\obj\Release\WS_Taxes.dll
+E:\Mugsy\ProjectCode\branches\test\WS_Taxes\obj\Release\WS_Taxes.pdb

@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="TaxIndex.asmx.cs" Class="WS_Taxes.TaxIndex" %>

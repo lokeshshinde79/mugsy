@@ -1,0 +1,419 @@
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojResolveAssemblyReference.cache
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.xml
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+c:\users\sofmen\documents\visual studio 2010\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojResolveAssemblyReference.cache
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+D:\Mugsy Git\MugsyEmailServiceProjects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojResolveAssemblyReference.cache
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+D:\Mugsy Git\Development\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.IO.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.WebRequest.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Runtime.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Threading.Tasks.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojResolveAssemblyReference.cache
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+D:\MugsySource\mugsyclickssource\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalPermissionsSDK.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalCoreSDK.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.Core.dll
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.S3.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalPermissionsSDK.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalCoreSDK.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.Core.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.S3.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll.config
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll.config
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojAssemblyReference.cache
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.CoreCompileInputs.cache
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.CopyComplete
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+C:\Users\Karuna Soni\source\repos\Mugsyclicks\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll.config
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\MugsyEmailService.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalPermissionsSDK.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridMail.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Encryption.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.ImageManipulation.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.DatabaseSearch.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PayPalCoreSDK.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.FileSystem.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Zip.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.Core.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\AWSSDK.S3.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Calendar.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Client.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\itextsharp.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NLog.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.Extensions.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.AESPrivateKey.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Xceed.Compression.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Google.GData.AccessControl.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoAppCommerce.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\DAL_PhotoApp.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.Ecommerce.dll.config
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.dll.config
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGrid.SmtpApi.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\SendGridPlus.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Extensions.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\System.Net.Http.Primitives.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\NovelProjects.Web.FileUtils.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\LitS3.xml
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.App.config
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojAssemblyReference.cache
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.CoreCompileInputs.cache
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csproj.CopyComplete
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.dll
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.pdb
+E:\Projects\MugsyEmailServiceProjects\MugsyEmailService\bin\Debug\PhotoApp.Web.xml
+E:\Mugsyclicks source code\MugsyEmailServiceProjects\MugsyEmailService\obj\Debug\MugsyEmailService.csprojResolveAssemblyReference.cache

@@ -1,0 +1,30 @@
+﻿/** Modal Styles **/
+.EditContentOverlay { background:#000; }
+.EditableContent { display:none; position:absolute; left:50%; top:15%; background:#FFF; color:#333; border:1px solid #333; padding:10px; }
+.EditableContent .npTitle { background:#AAA; padding:3px; margin:0; }
+.EditableContent .npTitle h1 { color:White; font-weight:bold; font-size:14px; padding:5px; margin:0; overflow:hidden; }
+.EditableContent .npContent { padding:0; margin:0; }
+
+.EditBoxOn { background:#CCCCCC; border:dashed 1px #FFFACD; cursor:pointer; }
+.EditBoxOff { background:#FFF; padding:1px; }
+
+#tooltip { position:absolute; z-index:3000; border:1px solid #111; background:#eee; padding:5px; opacity:0.95; cursor:pointer; }
+#tooltip h3, #tooltip div { font:12px/14px Arial; color:#000; margin:0; }
+
+.red { color:Red; }
+.green { color:Green; }
+.HistoryPages a:link, .HistoryPages a:visited { color:Blue; }
+.HistoryPages .alt { background:#EEE; }
+
+.npSpace { height:5px; font-size:5px; line-height:5px; padding:0; margin:0; }
+.modifyapprove { font-size:12px; line-height:12px; }
+
+.slider { cursor:pointer; }
+.slideOut { display:none; }
+.hide { display:none; }
+
+#CustomEditorContent .ui-tabs-panel { height:491px; overflow:auto; }
+.npTabs  { list-style:none; list-style-type:none; }
+
+.btnEditContent, .btnCopyContent, .btnDeleteContent { cursor:pointer; }
+.DisableSaveEditableContent { display:none; }

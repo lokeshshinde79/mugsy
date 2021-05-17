@@ -1,0 +1,270 @@
+DateTime: 2/14/2019 2:45:30 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:30 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:46:14 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 258
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+DateTime: 2/14/2019 2:46:46 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:30 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:46:59 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 258
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:30 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:47:44 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 258
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+DateTime: 2/14/2019 2:48:04 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:48:28 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:49:13 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+DateTime: 2/14/2019 2:49:13 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:49:58 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:45:40 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:50:42 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:49:13 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:51:27 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:49:13 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:52:11 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+
+
+-----------------------------------***@***-----------------------------------
+
+Action:	Failed
+ObjectId:	00000000-0000-0000-0000-000000000000
+ActionDescription:	DateTime: 2/14/2019 2:49:13 PM Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) while adding/Updating Google docs link from Dashboards.AddUpdateGoogleDocsLink()
+UserId:	00000000-0000-0000-0000-000000000000
+UserName:	
+LastModifiedDateTime:	2/14/2019 2:52:56 PM
+IPAddress:	::1
+UserAgent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+URL:	http://localhost:6525/api/Dashboards/AddGoogleDocLink
+UrlReferrer:	http://localhost:51303/locations/LocationManager.aspx
+RawUrl:	/api/Dashboards/AddGoogleDocLink
+QueryStringValues:	
+FromMethod:	InsertLog(string LogInfo)
+ErrorSource:	mscorlib
+ErrorTarget:	Void WinIOError(Int32, System.String)
+ErrorStackTrace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DAL_Logs.InsertLog(String LogInfo) in C:\Users\Karuna Soni\source\repos\Mugsyclicks\DAL_PhotoAppCommerce\DAL_Logs.cs:line 263
+ErrorMessage:	The process cannot access the file 'C:\Users\Karuna Soni\source\repos\Mugsyclicks\mugsy_api\logdata\Log-20190214.txt' because it is being used by another process.
+

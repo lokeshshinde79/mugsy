@@ -1,0 +1,13 @@
+
+select * 
+from editablecontent 
+where applicationid = '03d731d9-f857-47d8-8465-4cd1011cd8a5'
+and contenttext Like '%/iwmf/%'
+order by url
+
+
+--update editablecontent
+--SET contenttext = replace(contenttext, '/iwmf/', '/')
+--from editablecontent 
+--where applicationid = '03d731d9-f857-47d8-8465-4cd1011cd8a5'
+----and contenttext Like '%/iwmf/%'

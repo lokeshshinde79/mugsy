@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" Class="NovelProjects.Web.SaveClicks" CodeBehind="SaveClicks.asmx.cs" %>

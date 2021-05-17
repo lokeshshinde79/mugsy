@@ -1,0 +1,60 @@
+﻿#npUpload { width:510px; }
+#npUpload .clear { float:none; clear:both; }
+#npUpload h1 { margin:0; padding:0; }
+#npUpload .hide { display:none !important; }
+
+#npUpload .steps { background-color:#F6F6F6; margin:0; padding:20px; list-style:none; width:510px; }
+#npUpload li { padding-bottom:20px; }
+
+#npUpload .step { font-size:12px; color:#aaa; margin:0; padding:0; }
+#npUpload .nextstep { font-size:25px; color:#ccc; margin:0; padding:0; font-weight:normal; }
+
+#npUpload #largeflashbutton { outline:none; }
+
+#npUpload .filetop { color:#aaa; }
+
+#npUpload .name { width:300px; text-align:left; float:left; padding:0 5px; cursor:default; overflow:hidden; }
+#npUpload .size { width:75px; text-align:right; float:left; padding:0 15px 0 5px; }
+#npUpload .delete { width:50px; text-align:right; float:left; padding:0 5px; }
+
+#npUpload .files { width:500px; height:300px; overflow:auto; background-color:#fff; border:1px solid #ccc; }
+
+#npUpload .files .file { height:20px; border-bottom:1px solid #ccc; padding:5px; position:relative; z-index:1; }
+#npUpload .files .file .details .name, #npUpload .files .file .size, #npUpload .files .file .delete { position:relative; z-index:3; }
+#npUpload .files .file .details .delete { }
+#npUpload .files .file .details .delete .del { display:block; background:url('<%= WebResource("NovelProjects.Web.images.trash_can.gif") %>') no-repeat; background-position:left top; width:10px; height:10px; margin:5px auto 0 auto; cursor:pointer; }
+#npUpload .files .file .details .delete .del:hover { background-position:left bottom !important; }
+#npUpload .files .file .details .delete .del span { display:none; }
+#npUpload .files .file .details .delete .done { display:block; background:url('<%= WebResource("NovelProjects.Web.images.apply.gif") %>') no-repeat; width:16px; height:16px; margin:2px auto 0 auto; }
+#npUpload .files .file .details .delete .done span { display:none; }
+#npUpload .files .file .details .message { display:none; position:absolute; z-index:10; width:400px; background-color:#fff; color:#333; margin-top:8px; padding:5px; border:1px solid #999; border-right-width:2px; border-bottom-width:2px; }
+#npUpload .files .file .details .message .topArrow { display:block; background:url('<%= WebResource("NovelProjects.Web.images.top-arrow.gif") %>') no-repeat; width:16px; height:8px; position:absolute; margin:-13px 0 0 30px; z-index:7; }
+#npUpload .files .file .progress { background-color:#A4FFA4; position:absolute; z-index:2; width:0; height:30px; margin:-5px 0 0 -5px; }
+
+#npUpload .files .tl { background-color:#FDFC88; }
+#npUpload .files .tl .name { width:285px; padding-left:20px; background:url('<%= WebResource("NovelProjects.Web.images.warning.gif") %>') no-repeat left center; }
+
+#npUpload .files .ts { background-color:#FDFC88; }
+#npUpload .files .ts .name { width:285px; padding-left:20px; background:url('<%= WebResource("NovelProjects.Web.images.warning.gif") %>') no-repeat left center; }
+
+#npUpload .files .enforce .name { text-decoration:line-through; color:#999; }
+
+#npUpload .files .dts { background-color:#FDFC88; }
+#npUpload .files .dts .name { width:285px; padding-left:20px; background:url('<%= WebResource("NovelProjects.Web.images.warning.gif") %>') no-repeat left center; }
+
+#npUpload .filefooter { background-color:#ddd; border:1px solid #ccc; border-top:none; font-weight:bold; font-size:12px; padding:5px; width:490px; }
+#npUpload .filefooter .files-more { float:left; width:350px; }
+#npUpload .filefooter .totalfiles { padding:0 10px; }
+#npUpload .filefooter .tsize { float:left; width:100px; }
+
+#npUpload .uploadbtn { display:block; background:url('<%= WebResource("NovelProjects.Web.images.upload-files.png") %>') no-repeat; width:182px; height:39px; cursor:pointer !important; }
+#npUpload .uploadbtn span { display:none; }
+#npUpload .cancel { color:#999; }
+
+#npUpload .basic { font-size:12px; }
+
+#npUpload .controls { display:none; }
+
+
+/** IE6 Haxzoids **/
+* html #npUpload .uploadbtn { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="<%= WebResource("NovelProjects.Web.images.upload-files.png") %>"); }

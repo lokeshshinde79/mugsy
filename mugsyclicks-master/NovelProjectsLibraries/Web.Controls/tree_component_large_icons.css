@@ -1,0 +1,132 @@
+/* TREE LAYOUT */
+.tree ul { margin:0 0 0 5px; padding:0 0 0 0; list-style-type:none; }
+.tree li { display:block; min-height:22px; line-height:22px; padding:0 0 0 15px; margin:0 0 0 0; /* Background fix */ clear:both; _height:22px; #height:auto; }
+.tree li ul { display:none; }
+.tree li a, .tree li span { display:inline-block;line-height:20px;height:20px;color:black;white-space:nowrap;text-decoration:none;padding:1px 4px 1px 1px;margin:0; }
+.tree li a:focus { outline: none; }
+.tree li a input, .tree li span input { margin:0;padding:0 0;display:inline-block;height:12px !important;border:1px solid white;background:white;font-size:10px;font-family:Verdana; }
+.tree li a input:not([class="xxx"]), .tree li span input:not([class="xxx"]) { padding:1px 0; }
+/* FOR DOTS */
+.tree .ltr li.last { float:left; }
+.tree .rtl li.last { float:right; #float:none; _float:right; }
+.tree > ul li.last { overflow:visible; }
+/* OPEN OR CLOSE */
+.tree li.open ul { display:block; }
+.tree li.closed ul { display:none !important; }
+/* FOR DRAGGING */
+#jstree-dragged { position:absolute; top:-10px; left:-10px; margin:0; padding:0; }
+#jstree-dragged ul ul ul { display:none; }
+
+/* CONTEXT MENU */
+.tree-context { display:none; position:absolute; list-style-type:none; margin:0; padding:0; left:-2000px; top:-2000px; }
+.tree-context .separator { display:none; }
+.tree-context a { display:block; margin:0; padding:0; }
+
+/** FIREFOX2 fix **/
+.tree .ltr li a, x:-moz-any-link { display:inline; float:left; }
+.tree li ul, x:-moz-any-link { clear:both; }
+/** FIREFOX3 restore **/
+.tree .ltr li a, x:-moz-any-link, x:default { display:inline-block; float:none; }
+.tree li ul, x:-moz-any-link, x:default { clear:none; }
+/** IE7 Restore **/
+.tree .ltr li a { #display:inline-block; #float:none; }
+.tree li ul { #clear:none; }
+
+.tree li { _width:1px; }
+.tree li li { overflow:hidden; #overflow:visible; _overflow:visible; }
+
+.tree > .ltr > li { display:table; }
+
+
+/* EXPLORER 6 and 7 fix for 2px whitespace */
+.tree .ltr li.last { #margin-top: expression( (this.previousSibling && /open/.test(this.previousSibling.className) ) ? "-2px" : "0"); _margin-top: expression( (this.previousSibling && /open/.test(this.previousSibling.className) ) ? "-2px" : "0"); }
+
+/* OPERA SCROLLBAR ISSUE */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	head~body .tree > ul > li.last > ul { margin-bottom:36px; }
+	.tree li li { overflow:visible; }
+}
+
+/*
+FIREFOX FIX
+@-moz-document url-prefix() {} 
+*/
+
+/* LOCKED */
+.tree-default .locked li a { color:gray; }
+/* DOTS */
+.tree-default ul { background-position:10px 5px; background-repeat:repeat-y; background-image:url('<%= WebResource("NovelProjects.Web.images.tree.dot.gif") %>'); }
+.tree-default li { background-position:11px 12px; background-repeat:no-repeat; background-image:url('<%= WebResource("NovelProjects.Web.images.tree.li.gif") %>'); }
+.tree-default li.last { background-position:9px top; background-repeat:no-repeat; background-image:url('<%= WebResource("NovelProjects.Web.images.lastli.gif") %>'); }
+
+/* NO DOTS */
+.tree-default .no_dots, .tree-default .no_dots ul { background:transparent; }
+.tree-default .no_dots li.leaf { background-image:none; background-color:transparent; }
+/* OPEN or CLOSED */
+.tree-default li.open { background:url('<%= WebResource("NovelProjects.Web.images.tree.minus.gif") %>') 8px 10px no-repeat; }
+.tree-default li.closed, #jstree-dragged.tree-default li li.open { background:url('<%= WebResource("NovelProjects.Web.images.tree.plus.gif") %>') 9px 9px no-repeat; }
+
+/* DEFAULT, HOVER, CLICKED, LOADING STATES */
+.tree-default li a, .tree-default li span { background-color:transparent; background-repeat:no-repeat; background-position:4px 1px; padding:5px 8px 5px 30px; background-image:url('<%= WebResource("NovelProjects.Web.images.folder-directory-closed.png") %>'); border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+.tree-default li a:hover, .tree-default li a.hover { background-color: #e7f4f9; border:1px solid #d8f0fa; padding:4px 7px 4px 29px; background-position:3px 0px;  }
+.tree-default li a.clicked, .tree-default li a.clicked:hover, .tree-default li span.clicked { background-color: #beebff; border:1px solid #99defd; padding:4px 7px 4px 29px; background-position:3px 0px;  }
+.tree-default li span.clicked { padding:4px 7px 4px 27px; }
+.tree-default li a.loading { background-image:url('<%= WebResource("NovelProjects.Web.images.tree.throbber.gif") %>'); }
+
+/* CONTEXT MENU */
+.tree-default-context { width:160px; background:#F0F0F0 url('<%= WebResource("NovelProjects.Web.images.tree.context.gif") %>') 22px 0 repeat-y; border:1px solid silver; position:absolute; }
+.tree-default-context a, .tree-default-context a.disabled:hover { display:block; text-decoration:none; color:black; line-height:20px; background-repeat: no-repeat; background-position:2px center; padding:1px 0 1px 25px; background-color:transparent; border:1px solid #f0f0f0; border-width:0 1px; margin:0; }
+.tree-default-context a:hover { background-color:#e7f4f9; border:1px solid #d8f0fa; padding:0 0 0 25px; margin:0; }
+.tree-default-context a.disabled, .tree-default-context a.disabled:hover { color:silver; opacity:0.5; -ms-filter:'alpha(opacity=50)'; filter:alpha(opacity=50); zoom:1; }
+.tree-default-context .separator { background:#FFFFFF;border-top:1px solid #E0E0E0;font-size:1px;height:1px;line-height:1px;margin:0 2px 0 24px;min-height:1px;display:block; }
+
+/* 
+ * Note all selectors begin with .tree .tree-classic
+ * This is necessary - keep to this format. 
+ * Just replace classic with your theme name .
+ */
+
+/* Setting the icon infront of every closed node */
+.tree-default li.open {
+    background:url('<%= WebResource("NovelProjects.Web.images.tree.minus.gif") %>') 6px 9px no-repeat;
+}
+/* Setting the icon infront of every open node */
+.tree-default li.closed {
+    background:url('<%= WebResource("NovelProjects.Web.images.tree.plus.gif") %>') 6px 9px no-repeat;
+}
+/* This should be same as above.
+ * Used to "close" nested nodes while dragging */
+.tree-default #dragged li.open {
+    background:url('<%= WebResource("NovelProjects.Web.images.tree.plus.gif") %>') 6px 9px no-repeat;
+}
+
+/* The opened folder icon */
+.tree-default li.open a {
+    background-image:url('<%= WebResource("NovelProjects.Web.images.folder-directory-open.png") %>');
+}
+/* The closed folder icon */
+.tree-default li.closed a {
+    background-image:url('<%= WebResource("NovelProjects.Web.images.folder-directory-closed.png") %>');
+}
+/* The icon used for nodes with no children */
+
+/* If you want one icon for all above three states use this selector:
+ * .tree .tree-classic li a 
+ * It is also useful for setting the text color */
+
+/* The colors used on the hovered node. 
+ * Here they match the background color - so no hover.
+ * Note the second selector - it is applied when hover_mode is on 
+ * and you use the get_* functions (mainly used for keyboard shortcuts) */
+.tree-default li a:hover,
+.tree-default li a.hover {
+    background-color:#beebff;
+    border-color:white;
+}
+
+/* Images */
+.tree-default li.file a { background-image:url('<%= WebResource("NovelProjects.Web.images.window-application.png") %>'); }
+#marker { background:url('<%= WebResource("NovelProjects.Web.images.tree.marker.gif") %>') no-repeat; }
+.tree-context #addfile { background-image:url('<%= WebResource("NovelProjects.Web.images.tree.window-application.png") %>'); }
+.tree-context #addfolder { background-image:url('<%= WebResource("NovelProjects.Web.images.tree.folder-directory-closed.png") %>'); }
+.tree-context #delete { background-image:url('<%= WebResource("NovelProjects.Web.images.del.gif") %>'); }

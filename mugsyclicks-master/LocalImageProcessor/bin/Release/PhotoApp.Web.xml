@@ -1,0 +1,3399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PhotoApp.Web</name>
+    </assembly>
+    <members>
+        <member name="M:PhotoApp.Web.SimpleObjects.Get(System.Guid,System.Guid)">
+            <summary>
+            Get simple object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SimpleObjectId">The simple object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObjects.Update(PhotoApp.Web.SimpleObject,System.Boolean)">
+            <summary>
+            Add/Update the Simple Object
+            </summary>
+            <param name="simple">Object to update.</param>
+            <param name="IsAdd">If true add new.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObjects.Delete(PhotoApp.Web.SimpleObject)">
+            <summary>
+            Delete the specified simple object.
+            </summary>
+            <param name="SimpleObject">The simple object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObjects.Delete(System.Guid,System.Guid)">
+            <summary>
+            Delete a simple object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SimpleObjectId">The simple object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObjects.GetSimpleObjects(System.Guid)">
+            <summary>
+            Gets all simple objects
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Flags.Get(System.Guid,System.Guid)">
+            <summary>
+            Get the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="FlagId">The flag id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Flags.Update(PhotoApp.Web.Flag,System.Boolean)">
+            <summary>
+            Updates the specified flag.
+            </summary>
+            <param name="flag">The flag.</param>
+            <param name="IsAdd">if set to <c>true</c> [is add].</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Flags.Delete(System.Guid,System.Guid)">
+            <summary>
+            Delete the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="FlagId">The flag id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ManualOrderEntry.GetSchoolData(System.Guid,System.String)">
+            <summary>
+            Get the specified subject object by login code.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LoginCode">The login code to match on.</param>
+            <returns>The subject object.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.SearchUsers(System.Guid,PhotoApp.Web.Ecommerce.AccessType,System.String)">
+            <summary>
+            Searches customers in the application
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Access">The type of user.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.SearchUsers(System.Guid,System.String,System.String)">
+            <summary>
+            Searches customers in the application
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Role">The type of user.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.AddUser(System.Guid,System.Guid)">
+            <summary>
+            Add the user to the application.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="UserId">The user id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.DeleteUser(System.Guid,System.Guid)">
+            <summary>
+            Delete the user.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="UserId">The user id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.SearchUsersByRole(System.Guid,System.String,System.String)">
+            <summary>
+            Search the users by role.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="RoleName">The role name.</param>
+            <param name="Search">The search text.</param>
+            <returns>List of users.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerLocations(System.Guid,System.Guid)">
+            <summary>
+            Get the locations for a photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns>All locations for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerJobEvents(System.Guid,System.Guid)">
+            <summary>
+            Get the job events for a photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns>All job events for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerJobEventsOLD(System.Guid,System.Guid)">
+            <summary>
+            Get the job events for a photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns>All job events for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerOrders(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the orders for a photographer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>All orders for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerOrderCount(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType})">
+            <summary>
+            Get the order count for a photographer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <returns>The number of orders for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerSubjectPercentage(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType})">
+            <summary>
+            Gets the percentage of subjects who made an order.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <returns>The percentage of subjects who made an order for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerSubjectAverage(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType})">
+            <summary>
+            Gets the average $ per subjects who made an order.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <returns>The average $ per subjects who made an order for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerSubjectAverage(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType},System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Gets the average $ per subjects who made an order.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <param name="Start">The start date range</param>
+            <param name="End">The end date range</param>
+            <returns>The average $ per subjects who made an order for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerOrderTotal(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType})">
+            <summary>
+            Gets the total orders for this photographer and event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <returns>The total orders for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerOrderTotal(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType},System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Gets the total orders for this photographer and event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <param name="Start">The start date range</param>
+            <param name="End">The end date range</param>
+            <returns>The total orders for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerCommission(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType})">
+            <summary>
+            Gets the total commission for this photographer and event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <returns>The total commission for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetPhotographerCommission(System.Guid,System.Guid,System.Guid,System.Nullable{PhotoApp.Web.Ecommerce.OrderType},System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Gets the total commission for this photographer and event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderType">The type of orders.</param>
+            <param name="Start">The start date range</param>
+            <param name="End">The end date range</param>
+            <returns>The total commission for this photographer and event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSchoolUserLocation(System.Guid,System.Guid)">
+            <summary>
+            Get location for this school user.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SchoolUserId">The SchoolUserId.</param>
+            <returns>The location object for this school user.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSchoolUserJobs(System.Guid,System.Guid)">
+            <summary>
+            Get the jobs for a photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SchoolUserId">The SchoolUserId.</param>
+            <returns>All jobs for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSchoolUserJobEvents(System.Guid,System.Guid)">
+            <summary>
+            Get the job events for a school.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SchoolUserId">The photographer id.</param>
+            <returns>All job events for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSchoolUserRecentJobEvent(System.Guid,System.Guid)">
+            <summary>
+            Get the recent job event for a school.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SchoolUserId">The photographer id.</param>
+            <returns>All job events for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSchoolUserShootDates(System.Guid,System.Guid)">
+            <summary>
+            Get the job events for a photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SchoolUserId">The photographer id.</param>
+            <returns>All job events for a photographer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetYearbookItemId(System.Guid,System.Guid)">
+            <summary>
+            Return the id for yearbook service item for this event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>The yearbook service item id for the event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetLabJobs(System.Guid,System.Guid)">
+            <summary>
+            Get the jobs for a lab.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LabId">The lab id.</param>
+            <returns>All jobs for a lab.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetLabJobEvents(System.Guid,System.Guid)">
+            <summary>
+            Get the job events for a lab.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LabId">The lab id.</param>
+            <returns>All job events for a lab.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSubjects(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects for a customer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer's id.</param>
+            <returns>List of subjects for a customer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetEvents(System.Guid,System.Guid)">
+            <summary>
+            Gets all of the events associated with all of the customer's subjects.
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="CustomerId">The Id of the customer to get the events for.</param>
+            <returns>A DataTable containing all of the events.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetGalleries(System.Guid,System.Guid)">
+            <summary>
+            Get the galleries for a customer
+            </summary>
+            <param name="applicationId">The application id.</param>
+            <param name="customerId">The customer's id.</param>
+            <returns>List of galleries for a customer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetGalleries(System.Guid,System.Guid,System.Boolean)">
+            <summary>
+            Get the galleries for a customer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer's id.</param>
+            <param name="AllGalleries">Boolean indicating get customer galleries and subject galleries.</param>
+            <returns>List of galleries for a customer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetCatalogs(System.Guid,System.Guid)">
+            <summary>
+            Get the catalogs for a customer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer's id.</param>
+            <returns>List of catalogs for a customer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetCatalogIdFromCustomerSavedImage(System.Guid,System.Guid)">
+            <summary>
+            Get the customer catalog for their selected image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetSavedImage(System.Guid,System.Guid)">
+            <summary>
+            Get the saved customer image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.DeleteSavedImage(System.Guid,System.Guid)">
+            <summary>
+            Delete the saved customer image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Users.GetRecentLocations(System.Guid,System.Guid)">
+            <summary>
+            Get the most recent locations for a customer
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer's id.</param>
+            <returns>List of locations for a customer.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.Get(System.Guid)">
+            <summary>
+            Gets the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns>UploadInstanceConnection</returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.Get(System.Guid,System.Guid)">
+            <summary>
+            Gets the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="UploadInstanceConnectionId">The UploadInstanceConnection id.</param>
+            <returns>UploadInstanceConnection</returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.Add(PhotoApp.Web.UploadInstanceConnection)">
+            <summary>
+            Adds the specified UploadInstanceConnection.
+            </summary>
+            <param name="uic">The UploadInstanceConnection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.Update(PhotoApp.Web.UploadInstanceConnection)">
+            <summary>
+            Updates the specified UploadInstanceConnection.
+            </summary>
+            <param name="uic">The UploadInstanceConnection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.Delete(PhotoApp.Web.UploadInstanceConnection)">
+            <summary>
+            Deletes the specified UploadInstanceConnection.
+            </summary>
+            <param name="uic">The UploadInstanceConnection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.GetUploadInstanceUrl(System.Guid)">
+            <summary>
+            Adds the specified UploadInstance.
+            </summary>
+            <param name="UploadInstanceId">The upload instance id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.AddUploadInstance(System.String)">
+            <summary>
+            Adds the specified UploadInstance.
+            </summary>
+            <param name="Url">The url.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnections.DeleteUploadInstance(System.Guid)">
+            <summary>
+            Deletes the specified UploadInstance.
+            </summary>
+            <param name="UploadInstanceId">The UploadInstance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Reports.GetLocationStats(System.Guid,System.Guid,System.DateTime,System.DateTime)">
+            <summary>
+            Get all order information for a location
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <param name="Start">Start date range.</param>
+            <param name="End">End date range.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Reports.GetLocationStats(System.Guid,System.DateTime,System.DateTime)">
+            <summary>
+            Get all order information for a location
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Start">Start date range.</param>
+            <param name="End">End date range.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PhotoApp.Web.CanAddMessages">
+            <summary>
+            Used for deciding what status to return when adding products to custom product
+            </summary>
+        </member>
+        <member name="T:PhotoApp.Web.ObjectType">
+            <summary>
+            Used for adding subjects to a job or gallery
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObject.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the application object class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObject.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the application object class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObject.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObject.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObject.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.SimpleObject"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObject.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.SimpleObject"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SimpleObjectId">The simple object id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObject.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SimpleObject.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.SimpleObject.SimpleObjectId">
+            <summary>
+            The derived class's unique id
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.AddToJob(System.Guid)">
+            <summary>
+            Adds to job.
+            </summary>
+            <param name="JobId">The job id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.LinkToCustomer(System.Guid)">
+            <summary>
+            Links to customer.
+            </summary>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.RemoveCustomer(System.Guid)">
+            <summary>
+            Remove customer.
+            </summary>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.AddGallery(System.Guid)">
+            <summary>
+            Add gallery.
+            </summary>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObject.RemoveGallery(System.Guid)">
+            <summary>
+            Remove gallery from subject.
+            </summary>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObject.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.LocationObject"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObject.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.LocationObject"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location object id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObject.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObject.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.LocationObject.LocationObjectId">
+            <summary>
+            Unique id of this object, get and sets SimpleOjbectId
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.LocationObject.PrimaryContactId">
+            <summary>
+            The id of the primary contact from this location's list of contacts, optional
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.Job.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the Job class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Job.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the Job class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Job.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.AddPhotographer(System.Guid)">
+            <summary>
+            Add photographer.
+            </summary>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.RemovePhotographer(System.Guid)">
+            <summary>
+            Remove photographer.
+            </summary>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.AddLab(System.Guid)">
+            <summary>
+            Add lab.
+            </summary>
+            <param name="LabId">The lab id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.RemoveLab(System.Guid)">
+            <summary>
+            Remove lab.
+            </summary>
+            <param name="LabId">The lab id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.AddSubject(System.Guid)">
+            <summary>
+            Add subject.
+            </summary>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Job.RemoveSubject(System.Guid)">
+            <summary>
+            Remove subject.
+            </summary>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.JobEvent"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.JobEvent"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.AddSubject(System.Guid,System.String)">
+            <summary>
+            Add subject.
+            </summary>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvent.RemoveSubject(System.Guid)">
+            <summary>
+            Remove subject.
+            </summary>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.JobEvent.YearbookStart">
+            <summary>
+            The start date of the yearbook selection feature.
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.JobEvent.YearbookEnd">
+            <summary>
+            The end date of the yearbook selection feature.
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.JobEvent.YearbookSelectionEnabled">
+            <summary>
+            Does all the logic to check the YearbookStart and YearbookEnd to determine if the Yearbook selection feature should be enabled.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.TaskTemplate.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the TaskTemplate class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.TaskTemplate.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the TaskTemplate class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="TaskGroupId">The task group id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.TaskTemplate.Save">
+            <summary>
+            Saves this instance. Calls overload with false
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.TaskTemplate.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEventTask.Save">
+            <summary>
+            Saves this instance. Calls overload with Actions.Update
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEventTask.Save(System.Boolean)">
+            <summary>
+            Saves this instance. Calls overload with Actions.Add/Actions.Update
+            </summary>
+            <param name="IsAdd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEventTask.Save(PhotoApp.Web.Actions)">
+            <summary>
+            Updates all of the task information and adds/inserts this instance.
+            </summary>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.TaskGroup.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the TaskGroup class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.TaskGroup.Save">
+            <summary>
+            Saves this instance. Calls overload with false.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.TaskGroup.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Contact.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the Contact class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Contact.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the Contact class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Contact.Save">
+            <summary>
+            Saves this instance. Calls overload with false.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Contact.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Contact.Remove">
+            <summary>
+            Remove contact.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.Contact.ApplicationId">
+            <summary>
+            The application to add this object to, required
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.Contact.ContactId">
+            <summary>
+            The id of this object, if not specified it is Guid.NewGuid(), initially optional
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.Contact.LocationObjectId">
+            <summary>
+            The Location object to add this contact too, required
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Gallery"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Gallery"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.#ctor(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Gallery"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="JobId">The job id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.AddSubject(System.Guid)">
+            <summary>
+            Add subject.
+            </summary>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.RemoveSubject(System.Guid)">
+            <summary>
+            Remove gallery from subject.
+            </summary>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.AddCustomer(System.Guid)">
+            <summary>
+            Add customer.
+            </summary>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.RemoveCustomer(System.Guid)">
+            <summary>
+            Remove gallery from customer.
+            </summary>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Gallery.GetCustomers">
+            <summary>
+            Get the customers for this gallery.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Image.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Image"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Image.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Image"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Image.#ctor(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Image"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id</param>
+            <param name="GalleryId">The gallery id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Image.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Image.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.Image.OriginalImageId">
+            <summary>
+            If not empty, it means this is a retouched image
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.Image.Roll">
+            <summary>
+            Used for Marco purposes
+            </summary>
+        </member>
+        <member name="P:PhotoApp.Web.Image.Frame">
+            <summary>
+            Used for Marco purposes
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.ImageLocation.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.ImageLocation"/> class.
+            </summary>
+            <param name="LocationId">The location id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ImageLocation.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImageLocation.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Note.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Note"/> class.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.Note.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Note"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectId">The object id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Note.#ctor(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.Job"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectId">The object id.</param>
+            <param name="NoteId">The note id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Note.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Note.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMapping.#ctor">
+            <summary>
+            Empty Constructor sets a new mapping id.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMapping.#ctor(System.Guid)">
+            <summary>
+            Set the application and mapping id.
+            </summary>
+            <param name="ApplicationId">The application id to initialize.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMapping.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Set the application id and the mapping id.
+            </summary>
+            <param name="ApplicationId">The application id to initialize.</param>
+            <param name="MappingId">The mapping id to initialize to.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMapping.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMapping.Save(System.Boolean)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.UploadInstanceConnection.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PhotoApp.Web.UploadInstanceConnection"/> class.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="UploadInstanceId">The upload instance id.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ImageLocations.GetLocations">
+            <summary>
+            Get a list of all locations.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImageLocations.GetLocationUrl(System.Int32,System.Data.DataTable)">
+            <summary>
+            Loops through all locations until it finds a match.
+            </summary>
+            <param name="LocationId">The location id.</param>
+            <param name="locations">All locations.</param>
+            <returns>The url of the image.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Export.GetExportDataTable(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Get a datatable to be exported to csv.
+            </summary>
+            <author>Micah N. Jasper</author>
+            <purpose>Used to get an export of users that have subscribed to emails for Mugshots.</purpose>
+            <date>09/29/09</date>
+            <param name="emailMe" type="Boolean?">true if the user just wants subscibers, false if they just want non subscribers, and null if they want all customers</param>
+            <param name="superStar"></param>
+            <param name="orderFrom" type="DateTime?">Limits the customers to only those who have placed an order after the orderFrom value and before the orderTo value</param>
+            <param name="orderTo" type="DateTime?"></param>
+            <param name="hasOrders" type="Boolean?">if the user wants to select only those users that have not placed an order</param>
+            <param name="showIds" type="DateTime?"></param>
+            <param name="showSubscription" type="Boolean">Whether or not to output the subscription value for the customers exported</param>
+            <param name="showOrders" type="Boolean">Whether or not to show the orders for the customers exported</param>
+            <returns>A DataTable with ....</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Export.GetExportSQL(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            </summary>
+            <param name="attribute1"></param>
+            <param name="attribute2"></param>
+            <param name="orderFrom"></param>
+            <param name="orderTo"></param>
+            <param name="hasOrders"></param>
+            <param name="showIds"></param>
+            <param name="showSubscription"></param>
+            <param name="showOrders"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Attributes.GetGroupID(System.Guid,System.String)">
+            <summary>
+            Get the group id from a group name.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GroupName">The group name.</param>
+            <returns>The group id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Attributes.GetObjectAttributes(System.Guid)">
+            <summary>
+            Get all attributes attached to the object
+            </summary>
+            <param name="objectId">Guid ID of the object you're inspecting</param>
+            <returns>DataTable with the following columns: (ObjectAttributeId, ApplicationId, ObjectId, AttributeId, ChoiceObject, AttributeCode, AttributeName, AttributeDescription, AttributeDataTypeId, AttributeGroupId, Visible, PubliclyVisible, AllowMultipleValues)</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.Get(System.Guid,System.Guid)">
+            <summary>
+            Get the specified job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.Update(PhotoApp.Web.Job,System.Boolean)">
+            <summary>
+            Update the specified job.
+            </summary>
+            <param name="job">The job.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.Delete(PhotoApp.Web.Job)">
+            <summary>
+            Deletes the specified job.
+            </summary>
+            <param name="job">The job.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.Delete(System.Guid,System.Guid)">
+            <summary>
+            Deletes a job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetJobs(System.Guid)">
+            <summary>
+            Get the jobs.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns>List of jobs for the application.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetJobAttributeValues(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the attribute values for this job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="AttributeId">The attribute to get the values for.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.AddPhotographer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Adds the photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.RemovePhotographer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetPhotographers(System.Guid,System.Guid)">
+            <summary>
+            Get the photographers.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <param name="JobId">The job id.</param>
+            <returns>List of photographers for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.AddLab(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Add the lab.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="LabId">The lab id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.RemoveLab(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the lab.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="LabId">The lab id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetLabs(System.Guid,System.Guid)">
+            <summary>
+            Get the labs.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <param name="JobId">The job id.</param>
+            <returns>List of labs for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetEvents(System.Guid,System.Guid)">
+            <summary>
+            Get the events for this job.
+            </summary>
+            <param name="AppId">The app id.</param>
+            <param name="JobId">The job id.</param>
+            <returns>List of events for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetGalleries(System.Guid,System.Guid)">
+            <summary>
+            Get the galleries for this job.
+            </summary>
+            <param name="AppId">The app id.</param>
+            <param name="JobId">The job id.</param>
+            <returns>List of galleries for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.AddSubject(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Add to job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.RemoveSubject(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetSubjects(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <returns>List of subjects for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.SearchSubjects(System.Guid,System.Guid,System.String)">
+            <summary>
+            Searches the subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="Search">The search text.</param>
+            <returns>List of subjects for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.FindSubject(System.Guid,System.Guid,System.String,System.String)">
+            <summary>
+            Searches the subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="LastName">The last name of the subject.</param>
+            <param name="FirstName">The first name of the subject.</param>
+            <returns>A subject matching the search or null if no match.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Jobs.GetApplicationId(System.Guid)">
+            <summary>
+            Get the ApplicationId for this job. This should only used for the Image creation process.
+            </summary>
+            <param name="JobId">The job id.</param>
+            <returns>The application id for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Callout.Save">
+            <summary>
+             Saves the callout object whether inserting a new object or updating the existing object
+            </summary>
+            <returns>Boolean value to determine if the udpate was successful</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Callout.Get(System.Guid)">
+            <summary>
+             Retrieve the callout for the specified application
+            </summary>
+            <param name="applicationId">Unique identifier for the application</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Callout.Update(PhotoApp.Web.Callout)">
+            <summary>
+             Update a specific callout
+            </summary>
+            <param name="callout">An object representing updated callout values</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SiteFile.Get(System.Guid,System.String)">
+            <summary>
+            Gets the filedata connected to the appid and GroupKey
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="GroupKey">unique GroupKey</param>
+            <returns>file data</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SiteFile.GetList(System.Guid,System.String)">
+            <summary>
+            Gets the filedata connected to the appid and GroupKey
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="GroupKey">unique GroupKey</param>
+            <returns>file data</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SiteFile.Set(System.Guid,System.Guid,System.String,System.Byte[],System.String)">
+            <summary>
+            Sets the FileValue. If the GroupKey does not exists then it is added.
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="ID"></param>
+            <param name="GroupKey"></param>
+            <param name="FileValue"></param>
+            <param name="FileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.CalendarEvents.AddEntry(PhotoApp.Web.CalendarEventData)">
+            <summary>
+            Adds the CalendarEventData object the the google calendar.
+            </summary>
+            <param name="data">The object data to add</param>
+            <returns>The new EditUri of the added event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.CalendarEvents.AddJobEntry(PhotoApp.Web.CalendarEventData)">
+            <summary>
+            Adds the CalendarEventData object the the google calendar.
+            </summary>
+            <param name="data">The object data to add</param>
+            <returns>The new EditUri of the added event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.CalendarEvents.UpdateEntry(PhotoApp.Web.CalendarEventData)">
+            <summary>
+            Deletes the old entry and inserts a new entry containing the passed data
+            </summary>
+            <param name="data"></param>
+            <returns>The new EditUri of the updated calendar event</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.LinkToFlag(System.Guid,System.Guid)">
+            <summary>
+            Links to flag.
+            </summary>
+            <param name="ImageId">The image id.</param>
+            <param name="FlagId">The flag id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.Get(System.Guid,System.Guid)">
+            <summary>
+            Gets the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.Update(PhotoApp.Web.Image,System.Boolean)">
+            <summary>
+            Updates the specified image.
+            </summary>
+            <param name="image">The image.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.Delete(PhotoApp.Web.Image)">
+            <summary>
+            Deletes the specified image.
+            </summary>
+            <param name="image">The image.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetPrimary(System.Guid,System.Guid)">
+            <summary>
+            Get the primary image for a gallery
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.SetPrimary(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Set the primary image for a gallery
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.ApproveImage(System.Guid,System.Guid,System.Boolean)">
+            <summary>
+            Approve/Unapprove Image
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="Approved">Approve/Unapprove.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.UpdateFavorites(System.Guid,System.Guid,System.Guid,System.Boolean)">
+            <summary>
+            Add image to customer favorites.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <param name="Delete">Delete the image.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.CreateImage(System.Guid,System.Guid,System.String,System.String,System.String)">
+            <summary>
+            Creates the image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="OriginalFileName">Name of the original file.</param>
+            <param name="OriginalFilePath">The original filepath.</param>
+            <param name="Extension">The extension.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.CreateFoldersForImages(PhotoApp.Web.ImageLocation,System.String)">
+            <summary>
+            Creates the folders for images.
+            </summary>
+            <param name="location">The location.</param>
+            <param name="path">The path of the image.</param>
+        </member>
+        <member name="M:PhotoApp.Web.Images.SaveTempCustomerImage(System.Guid,System.Guid,System.Guid,System.String)">
+            <summary>
+            Selects an image for ordering prints.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <param name="Url">The url of the image.</param>
+            <returns>True if success, False if error.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetImagesDownload(System.Guid)">
+            <summary>
+            Get the images to download for an order.
+            </summary>
+            <param name="DownloadId">The download link id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetOrderImages(System.Guid,PhotoApp.Web.Ecommerce.OrderStatus,System.DateTime,System.DateTime)">
+            <summary>
+            Get the images for these orders.
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="Status"></param>
+            <param name="StartDate"></param>
+            <param name="EndDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetOrderItemImage(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the Gallery Image for the specified OrderItem
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="OrderId"></param>
+            <param name="OrderItemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetSubjectAttributes(System.Guid,System.Guid)">
+            <summary>
+            Get the subject and attributes from the image id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetSubjectId(System.Guid,System.Guid)">
+            <summary>
+            Get the SubjectObjectId from the image id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <returns>The SubjectObjectId related to this image id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetSubject(System.Guid,System.Guid)">
+            <summary>
+            Get the subject from the image id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <returns>The subject related to this image id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetImageInfoByImageName(System.String)">
+            <summary>
+            For Fetching Image details by Image Name,
+            </summary>
+            <param name="ImageNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetEncryptedURLWithParameters(System.Guid,System.Guid,System.Int32)">
+            <summary>
+            Get a formatted URL for downloading an image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="Quality">The quality.</param>
+            <returns>Formatted URL</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Images.GetEncryptedURLWithParameters(System.Guid,System.Guid,System.Guid,System.Int32)">
+            <summary>
+            Get a formatted URL for downloading an image.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="ImageId">The image id.</param>
+            <param name="Quality">The quality.</param>
+            <returns>Formatted URL</returns>
+        </member>
+        <member name="T:PhotoApp.Web.PhotographerCommission">
+            <summary>
+             A non static class that gets photographer commission information
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.#ctor(System.Guid,System.Guid,System.DateTime,System.DateTime,System.Boolean,System.Double)">
+            <summary>
+            </summary>
+            <param name="applicationId"></param>
+            <param name="photographerId"></param>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <param name="salesTax"></param>
+            <param name="isCommissionPaid"></param>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetLocations">
+            <summary>
+             Returns all of the Photographer's FirstName, LastName, and PhotographerId
+            </summary>
+            <returns>
+             LocationName varchar(50), and LocationObjectId uniqueidentifier
+            </returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetJobEvents">
+            <summary>
+             Returns all JobEvents' JobEventName, JobEventDate, JobName, JobId, and JobEventId
+             for the given photographer with orders between the given dates.
+            </summary>
+            <returns>
+             JobEventName varchar(50),
+             JobEventDate datetime,
+             JobName varchar(50),
+             JobEventId uniqueidentifier,
+             JobId uniqueidentifier
+            </returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetJobEvents(System.Guid)">
+            <summary>
+             Returns all JobEvents' JobEventName, JobEventDate, JobName, JobId, and JobEventId
+             for the given photographer and LocationObjectId with orders between the given dates.
+            </summary>
+            <param name="LocationObjectId" type="Guid"></param>
+            <returns>
+             JobEventName varchar(50),
+             JobEventDate datetime,
+             JobName varchar(50),
+             JobEventId uniqueidentifier,
+             JobId uniqueidentifier
+            </returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PhotoApp.Web.PhotographerCommission.GetCommissionStats(System.Guid,System.Guid,System.DateTime,System.DateTime,System.Boolean,System.Double)" -->
+        <!-- Badly formed XML comment ignored for member "M:PhotoApp.Web.PhotographerCommission.GetCommissionStats(System.Guid)" -->
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetDistinctOrderIds(System.Guid,System.Guid,System.DateTime,System.DateTime)">
+            <summary>
+             Returns all of the OrderId's associated with this photographer's commission statistics for the date range
+            </summary>
+            <returns>
+             List<Guid>OrderIds</Guid>
+            </returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetTotalCommission">
+            <summary>
+             Gets the sum of the commission for every JobEvent
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommission.GetPhotographers(System.Guid)">
+            <summary>
+             Returns all of the Photographer's FirstName, LastName, and PhotographerId
+            </summary>
+            <param name="ApplicationId" type="Guid"></param>
+            <returns>
+             FirstName varchar(100), LastName varchar(100), and PhotographerId uniqueidentifier
+            </returns>
+        </member>
+        <member name="T:PhotoApp.Web.ApplicationEmails">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:PhotoApp.Web.ApplicationEmail">
+            <summary>
+             An object for dynamic email stored in the database.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationEmail.FullBodyHtmlWithReplacementVariables(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Replaces the text in the body with the value indicated.
+            </summary>
+            <param name="keyVals">The KEY: The replacement text, such as ##FirstName## or ##OrderNumber##. The VALUE: The value to replace the text with, such as "John" or "2353"</param>
+            <returns></returns>
+        </member>
+        <member name="P:PhotoApp.Web.ApplicationEmail.FullBodyHtml">
+            <summary>
+            Includes the Header, Body and Footer all together in one string
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.Get(System.Guid,System.Guid)">
+            <summary>
+            Get the specified job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetJobEventIdFromSubject(System.Guid,System.Guid)">
+            <summary>
+            Get the job event id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId"></param>
+            <returns>The job event id</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.Update(PhotoApp.Web.JobEvent,System.Boolean)">
+            <summary>
+            Updates the specified job event.
+            </summary>
+            <param name="jobevent">The job event.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.Delete(PhotoApp.Web.JobEvent)">
+            <summary>
+            Deletes the specified job event.
+            </summary>
+            <param name="jobevent">The job event to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.Delete(System.Guid,System.Guid)">
+            <summary>
+            Deletes a job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.AddSubject(System.Guid,System.Guid,System.Guid,System.Guid,System.String)">
+            <summary>
+            Add to job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <param name="GalleryName">The name of the gallery to create.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.RemoveSubject(System.Guid,System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The JobId.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjects(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of subjects for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsExtended(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects with extended information
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of subjects for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsExtended(System.Guid,System.Guid,System.Nullable{System.Int32})">
+            <summary>
+            Get the subjects with extended information
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="count">The number of records to return (all records are returned if null).</param>
+            <returns>List of subjects for the job event.</returns>
+            Created by MAB 6/27/2011: Added add'l columns to the JobEventSubectsView and called it JobEventSubjectsExtendedView
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.SearchSubjects(System.Guid,System.Guid,System.String)">
+            <summary>
+            Search subjects in the application
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The jobevent id.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsPrimaryImages(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects primary images.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of subjects primary images for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsImages(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects images.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of subjects images for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.LinkSubject(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Associates the Subject to the JobEvent
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId">Id of the JobEvent</param>
+            <param name="SubjectObjectId">Id of the Subject</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.ImportSubjects(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Imports subjects from a past job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PastJobEventId">The past job event id to import subjects from.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.ReshootImport(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Import subjects from a previous event for a reshoot based upon not having images.
+            </summary>
+            <param name="AppId">The app id.</param>
+            <param name="OldJobEventId">The id of the job event to import from.</param>
+            <param name="NewJobEventId">The id of the job event to import into.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetGalleries(System.Guid,System.Guid,System.Nullable{System.Int32})">
+            <summary>
+            Get the galleries for this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="count">Number of records to return (all records if null).</param>
+            <returns>List of galleries for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetGroupGalleryByName(System.Guid,System.Guid,System.String)">
+            <summary>
+            Get the gallery for this job event by name.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="GalleryName">The gallery name.</param>
+            <returns>List of galleries for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.AddGallery(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Add the gallery to this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsGalleries(System.Guid,System.Guid,System.String)">
+            <summary>
+            Get the galleries and subjects for this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderBy">The fields to order the data.</param>
+            <returns>List of galleries for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetSubjectsForExport(System.Guid,System.Guid,System.String)">
+            <summary>
+            Get the galleries and subjects for this job event and their attributes.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="OrderBy">The fields to order the data.</param>
+            <returns>List of galleries and subjects for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.SearchGalleries(System.Guid,System.Guid,System.String)">
+            <summary>
+            Search galleries in the job event
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The jobevent id.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetAttributes(System.Guid,System.Guid)">
+            <summary>
+            Get the subjects for this job event and their attributes.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of galleries for the job.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.CreateGroupGalleries(System.Guid,System.Guid,System.Guid,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id to link to.</param>
+            <param name="JobEventId">The job event id to link to.</param>
+            <param name="GalleryName">The gallery name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.UpdatePhotographer(System.Guid,System.Guid,System.Guid,System.Double,System.Boolean)">
+            <summary>
+            Add the photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <param name="Percentage">The percentage of this photographers commission.</param>
+            <param name="IsAdd">If true add photographer, else update.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.RemovePhotographer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the photographer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="PhotographerId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetPhotographers(System.Guid,System.Guid)">
+            <summary>
+            Get the photographers.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of photographers for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.AddServiceItem(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Add the service item to this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="ProductId">The product id.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.RemoveServiceItem(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Removes the service item from this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="ServiceItemId">The service item id.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetServiceItems(System.Guid,System.Guid)">
+            <summary>
+            Get the service items for this job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of service items for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetServiceItemProduct(System.Guid,System.Guid)">
+            <summary>
+            Get the product id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ServiceItemId">The service item id.</param>
+            <returns>The service item product id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetServiceItemId(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the service item id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="ProductId">The product id.</param>
+            <returns>The service item id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetCatalogs(System.Guid,System.Guid)">
+            <summary>
+            Get the catalogs for this job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>List of catalogs for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.UpdateCatalogs(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Adds or removes catalogs to a job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The id of the job event.</param>
+            <param name="CatalogId">The id of the catalog to add/remove.</param>
+            
+            <returns>True if success, false otherwise.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.BuildTaskList(PhotoApp.Web.JobEvent)">
+            <summary>
+            Builds the initial event task list and calls SetEventTaskDates, CALLED ONCE.
+            </summary>
+            <param name="jobEvent">The Job Event to add the list to.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.SetEventTaskDates(PhotoApp.Web.JobEvent)">
+            <summary>
+            Sets the initials dates of the tasks, CALLED ONCE.
+            </summary>
+            <param name="jobEvent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.DeleteCalendarEvents(System.Guid,System.Guid)">
+            <summary>
+            Deletes all of the calendar entries associated with the JobEventId
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId"></param>
+            <returns>True for success</returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.UpdateEventTasks(System.Guid,System.Data.DataTable)">
+            <summary>
+            Pass the AppId and the modified data table to update all of the rows to
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="dt">The modified data table, should reflect the JobEventTasks table</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetEventTasks(System.Guid,System.Guid)">
+            <summary>
+            Get tasks. Orders by StartDate
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetEventTasks(System.Guid,System.Guid,System.String,System.Nullable{System.Boolean})">
+            <summary>
+            Returns a datatable of the tasks belonging to the specified job event.
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId"></param>
+            <param name="OrderByColumn">The column to order the table by (either OrderNumber or StartDate)</param>
+            <param name="IsCompleted">Only get events that are completed or not.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetEventTask(System.Guid,System.Guid)">
+            <summary>
+            Get the specified task.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventTaskId">The JobEventTask id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.UpdateEventTaskIsCompleted(System.Guid,System.Guid,System.Boolean)">
+            <summary>
+            Sets the IsCompleted field on the job event task
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventTaskId"></param>
+            <param name="value">Value to set IsComplete to.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.UpdateEventTask(PhotoApp.Web.JobEventTask,PhotoApp.Web.Actions)">
+            <summary>
+            Update the specified task template.
+            </summary>
+            <param name="EventTask">The EventTask.</param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.JobEvents.GetImages(System.Guid,System.Guid)">
+            <summary>
+            Get all images for the job event.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.Get(System.Guid,System.Guid)">
+            <summary>
+            Get location object
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.Update(PhotoApp.Web.LocationObject,System.Boolean)">
+            <summary>
+            Update the location.
+            </summary>
+            <param name="location">Location to update.</param>
+            <param name="IsAdd">If true add new.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.UpdatePrimaryContactId(PhotoApp.Web.LocationObject)">
+            <summary>
+            Update the location.
+            </summary>
+            <param name="location">Location to update.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.Delete(PhotoApp.Web.LocationObject)">
+            <summary>
+            Delete the location.
+            </summary>
+            <param name="location">The location to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetLocations(System.Guid)">
+            <summary>
+            Get all locations
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.SearchLocationsByContacts(System.Guid,System.String)">
+            <summary>
+            Search the locations by contacts.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Search">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.SearchLocations(System.Guid,System.String)">
+            <summary>
+            Search the locations.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Search">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetJobs(System.Guid,System.Guid)">
+            <summary>
+            Get jobs for a location
+            </summary>
+            <param name="ApplicationId">The application id</param>
+            <param name="LocationObjectId">The location id</param>
+            <returns>List of jobs for a location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.DeleteJob(PhotoApp.Web.Job)">
+            <summary>
+            Delete the job
+            </summary>
+            <param name="job">The job to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.DeleteJob(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Delete the job.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <param name="JobId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetRecentJob(System.Guid,System.Guid)">
+            <summary>
+            Get jobs for a location
+            </summary>
+            <param name="ApplicationId">The application id</param>
+            <param name="LocationObjectId">The location id</param>
+            <returns>List of jobs for a location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetRecentJobEvent(System.Guid,System.Guid)">
+            <summary>
+            Get recent job event (current) for a location
+            </summary>
+            <param name="ApplicationId">The application id</param>
+            <param name="LocationObjectId">The location id</param>
+            <returns>The current job event for a location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetJobEvent(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get job events based on school and Jobid
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="LocationObjectGUID"></param>
+            <param name="JobGUID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetReshoot(System.Guid,System.Guid)">
+            <summary>
+            Get the reshoot for a location
+            </summary>
+            <param name="applicationId">The application id</param>
+            <param name="locationObjectId">The location id</param>
+            <returns>Get the rehoot job event for a location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetContactTypes(System.Guid)">
+            <summary>
+            Get contact types
+            </summary>
+            <param name="ApplicationId">The Application Id</param>
+            <returns>table of contact types</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.UpdateContactType(System.Guid,System.Guid,System.String,System.Boolean)">
+            <summary>
+            Update the Contact Type.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ContactTypeId">The contact type id.</param>
+            <param name="ContactType">The text value.</param>
+            <param name="IsAdd">If true add new.</param>
+            <returns>True if success</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetContacts(System.Guid,System.Guid)">
+            <summary>
+            Get contacts for a location
+            </summary>
+            <param name="ApplicationId">The Application Id</param>
+            <param name="LocationObjectId">The location object id</param>
+            <returns>table of contacts</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetContact(System.Guid,System.Guid)">
+            <summary>
+            Get the specified contact.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ContactId">The Contact id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.UpdateContact(PhotoApp.Web.Contact,System.Boolean)">
+            <summary>
+            Update the Contact.
+            </summary>
+            <param name="contact">Contact to update.</param>
+            <param name="IsAdd">If true add new.</param>
+            <returns>True if success</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.DeleteContact(PhotoApp.Web.Contact)">
+            <summary>
+            Delete the job
+            </summary>
+            <param name="contact">The contact to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.DeleteContact(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Delete the contact.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <param name="ContactId">The contact id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.AddSchoolUser(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Add the School User.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The job event id.</param>
+            <param name="SchoolUserId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.RemoveSchoolUser(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the School User.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The job event id.</param>
+            <param name="SchoolUserId">The photographer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetSchoolUsers(System.Guid,System.Guid)">
+            <summary>
+            Get the School Users.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <param name="LocationObjectId">LocationObjectId.</param>
+            <returns>List of photographers for the job event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetCustomers(System.Guid,System.Guid)">
+            <summary>
+            Get the customers for a location
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <returns>List of customers for a location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetSubjects(System.Guid,System.Guid)">
+            <summary>
+            Return a list of subjects for this location.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location object id.</param>
+            <returns>List of subjects for this location.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetPrimarySchoolContacts(System.Guid)">
+            <summary>
+            Returns a table of primary school contacts.
+            </summary>
+            <param name="ApplicationID">The application ID.</param>
+        </member>
+        <member name="M:PhotoApp.Web.LocationObjects.GetAllSchoolData(System.Guid)">
+            <summary>
+            Gets the subject counts for all schools.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetMapping(System.Guid,System.Guid)">
+            <summary>
+            Get mapping
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="MappingId">The mapping id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.Update(PhotoApp.Web.ImportMapping,System.Boolean)">
+            <summary>
+            Updates the specified mpaping.
+            </summary>
+            <param name="mapping">The mapping to update.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.Delete(PhotoApp.Web.ImportMapping)">
+            <summary>
+            Delete the specified mapping.
+            </summary>
+            <param name="mapping">The job.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.Delete(System.Guid,System.Guid)">
+            <summary>
+            Delete a mapping.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="MappingId">The mapping id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetPredefinedMappings(System.Guid)">
+            <summary>
+            Get a list of predefined mappings
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetLocationMappings(System.Guid,System.Guid)">
+            <summary>
+            Get mappings for a location
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetDatabaseFields(System.Guid,System.String,System.Guid,System.Boolean)">
+            <summary>
+            Get the database fields to map to.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Table">The table to get fields from.</param>
+            <param name="ObjectId">The object to get the attributes for.</param>
+            <param name="HasPrefix">Has a prefix.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetColumnMapping(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get column mapping
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="MappingId">The mapping id.</param>
+            <param name="ColumnMappingId">The column mapping id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.GetColumnMappings(System.Guid)">
+            <summary>
+            Get the mapping of columns from the database to excel.
+            </summary>
+            <param name="ImportMappingId">The import mapping id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.UpdateColumnMapping(PhotoApp.Web.ColumnMapping,System.Boolean)">
+            <summary>
+            Update the column mapping.
+            </summary>
+            <param name="ColumnMapping">The column mapping.</param>
+            <param name="IsAdd">Is this a new column mapping.</param>
+        </member>
+        <member name="M:PhotoApp.Web.ImportMappings.DeleteColumnMapping(System.Guid)">
+            <summary>
+            Delete the database/excel column mapping
+            </summary>
+            <param name="ColumnMappingId">The column mapping to delete</param>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetTempOrderItems(System.Guid,System.Guid)">
+            <summary>
+            Get temp order items
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ParentOrderItemId">The parent order item id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.CanCustomerAddProduct(System.Guid,System.Guid,System.Guid,System.Guid,System.Int32,System.Int32)">
+            <summary>
+            Checks if a customer can add this product to the custom product.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="ParentOrderItemId">The custom product order item id.</param>
+            <param name="ProductId">The specific product to check against.</param>
+            <param name="MaxItems">The max number of items allowed for this custom product.</param>
+            <param name="MaxProduct">The max number of this specific product for this custom product.</param>
+            <returns>True if customer can add the product, False otherwise.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetOrderItemImages(System.Guid,System.Guid)">
+            <summary>
+            Get the saved images for this order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderItemId">The product order item id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetOrderItemImage(System.Guid,System.Guid)">
+            <summary>
+            Get the saved image for this order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderItemId">The product order item id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveTempOrderImage(System.Guid,System.Guid,System.Nullable{System.Guid},System.Guid,System.Guid,System.Boolean,System.Guid,System.Byte[],System.String)">
+            <summary>
+            Save an image associated with an order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="ParentOrderItemId">The parent orderitem id.</param>
+            <param name="OrderItemId">The orderitem id.</param>
+            <param name="ProductId">The orderitem id.</param>
+            <param name="IsLandscape">Does the product have a landscape layout.</param>
+            <param name="PoseId">The pose id.</param>
+            <param name="DisplayImage">The display image.</param>
+            <param name="Url">The image url.</param>
+            <returns>True if success, False if error.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.UseSavedCustomerImage(System.Guid,System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Use the saved customer image for a pose.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <param name="OrderItemId">The order item id.</param>
+            <param name="OrderId">The order id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetOrderImageRecovery(System.Guid,System.Guid)">
+            <summary>
+            Get the saved images for this order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderItemId">The product order item id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetOrderItemPoses(System.Guid,System.Guid)">
+            <summary>
+            Get the saved poses for this order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderItemId">The product order item id.</param>
+            <returns>A datatable of orderitem poses.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveOrderItemPose(System.Guid,System.Guid,System.Guid,System.Guid,System.Guid,System.Int32,System.Byte[],System.String)">
+            <summary>
+            Save a pose to this order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderItemId">The order item id.</param>
+            <param name="ImageId">The image id to save.</param>
+            <param name="GalleryId">The image gallery id.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="OrderNum">The order number of a pose (used for products with multiple images).</param>
+            <param name="DisplayImage">The previewed image.</param>
+            <param name="Url">The image url.</param>
+            <returns>The newly created pose id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.RemoveOrderItems(System.Guid,System.Guid)">
+            <summary>
+            Remove order items associated with this pose.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PoseId">The pose id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.RemoveOrderItemPose(System.Guid,System.Guid)">
+            <summary>
+            Remove pose from order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PoseId">The pose id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.RetouchOrderItemPose(System.Guid,System.Guid,System.Guid,System.String)">
+            <summary>
+            Retouch pose from order item.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PoseId">The pose id.</param>
+            <param name="RetouchProductId">Retouch product id.</param>
+            <param name="RetouchComments">Retouch comments.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetPoseProductCount(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the count of products for this pose.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="PoseId">The pose id.</param>
+            <param name="ProductId">The product to get the count of.</param>
+            <returns>The count for this pose and product.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.LoadOrderItemPoseAttribute(System.Guid,System.String)">
+            <summary>
+            Loads attributes for this order item pose.
+            </summary>
+            <param name="PoseId">The order item pose id.</param>
+            <param name="AttributeCode">The code for the attribute.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveOrderItemPoseAttribute(System.Guid,System.Guid,System.String)">
+            <summary>
+            Saves attributes to this order item pose.
+            </summary>
+            <param name="PoseId">The order item pose id.</param>
+            <param name="ObjectAttributeValueId">The object attribute value.</param>
+            <param name="AttributeCode">The code for the attribute.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetOrderItemPoseAttributes(System.Guid)">
+            <summary>
+            Gets attributes for this order item pose.
+            </summary>
+            <param name="PoseId">The order item pose id.</param>
+            <returns>Datatable of attributes for this pose.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveToJobEvent(System.Guid,System.Guid,System.Guid,System.Guid,PhotoApp.Web.Ecommerce.OrderType,System.Double,System.Double,System.Double)">
+            <summary>
+            Save order to job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id to associate with this order item.</param>
+            <param name="OrderItemId">The order item referenced by the image.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="OrderType">The order type.</param>
+            <param name="Price">The price of the order item.</param>
+            <param name="Shipping">The amount of shipping.</param>
+            <param name="Tax">The amount of tax.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveToJobEvent(System.Data.SqlClient.SqlCommand,System.Guid,System.Guid,System.Guid,System.Guid,PhotoApp.Web.Ecommerce.OrderType,System.Double,System.Double,System.Double)">
+            <summary>
+            Save order to job event.
+            </summary>
+            <param name="sqlcmd">Initialized sql command to save the order with.</param>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ImageId">The image id to associate with this order item.</param>
+            <param name="OrderItemId">The order item referenced by the image.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="OrderType">The order type.</param>
+            <param name="Price">The price of the order item.</param>
+            <param name="Shipping">The amount of shipping.</param>
+            <param name="Tax">The amount of tax.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.DeleteOrderItem(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Deletes the order item from the photoapp database.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="OrderItemId">The order item id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.UpdateOrderType(System.Guid,System.Guid,PhotoApp.Web.Ecommerce.OrderType)">
+            <summary>
+            Save order to job event.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="OrderId">The order id.</param>
+            <param name="OrderType">The order type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.SaveAttributes(System.Guid)">
+            <summary>
+            Save the attributes for an order item to the database.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.CreateDownloadLink(System.Guid,PhotoApp.Web.Ecommerce.OrderItem,PhotoApp.Web.Ecommerce.Order)">
+            <summary>
+            Create a download link for this order.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Item">The order item holding the link information.</param>
+            <param name="Order">The order to create a link for.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.CreateDownloadLink(System.Data.SqlClient.SqlCommand,System.Guid,PhotoApp.Web.Ecommerce.OrderItem,PhotoApp.Web.Ecommerce.Order)">
+            <summary>
+            Create a download link for this order.
+            </summary>
+            <param name="sqlcmd">An initialized SqlCommand.</param>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Item">The order item holding the link information.</param>
+            <param name="Order">The order to create a link for.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.CheckRetouch(System.Guid,PhotoApp.Web.Ecommerce.Order,System.Guid)">
+            <summary>
+            Check if the image needs retouching before allowing to download.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Order">The order to search for a retouching item.</param>
+            <param name="ImageId">The image to check for retouching.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderItems.GetRetouchProductIds(System.Guid)">
+            <summary>
+            Get a list of all retouching product id's in the application.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.GetTaskGroups(System.Guid)">
+            <summary>
+            Gets tasks groups. This is the top level item in the Task Templates structure.
+            </summary>
+            <param name="ApplicationId">The Application Id</param>
+            <returns>table of tasks</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.GetTaskGroup(System.Guid,System.Guid)">
+            <summary>
+            Get the specified group. This is the top level item in the Task Templates structure.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="TaskGroupId">The task group id.</param>
+            <returns>A the specified taskgroup</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.UpdateTaskGroup(PhotoApp.Web.TaskGroup,System.Boolean)">
+            <summary>
+            Update the specified task group. This is the top level item in the Task Templates structure.
+            </summary>
+            <param name="TaskGroup">The TaskGroup.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns>True for success</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.UpdateShootTemplateId(PhotoApp.Web.TaskGroup)">
+            <summary>
+            Updates the shootTemplateId of the Taskgroup
+            </summary>
+            <param name="taskGroup">taskGroup to update.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.UpdateShootTemplateId(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Updates the shootTemplateId of the Taskgroup
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="TaskGroupId"></param>
+            <param name="newShootTemplateId">the new shoot templateId for the group</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.DeleteTaskGroup(PhotoApp.Web.TaskGroup)">
+            <summary>
+            Delete the specified TaskGroup.
+            </summary>
+            <param name="TaskGroup">The TaskGroup to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.DeleteTaskGroup(System.Guid,System.Guid)">
+            <summary>
+            Delete the specified TaskGroup.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="TaskGroupId">The task group id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.GetTaskTemplate(System.Guid,System.Guid)">
+            <summary>
+            Get the specified task template. Bottom (second) level item in the task template structure
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="TaskTemplateId">The task template id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.GetTaskTemplates(System.Guid,System.Guid)">
+            <summary>
+            Gets tasks. Bottom (second) level item in the task template structure
+            </summary>
+            <param name="ApplicationId">The Application Id</param>
+            <param name="TaskGroupId">The TaskGroup Id</param>
+            <returns>table of tasks</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.UpdateTaskTemplate(PhotoApp.Web.TaskTemplate,System.Boolean)">
+            <summary>
+            Update the specified task template.
+            </summary>
+            <param name="TaskTemplate">The TaskTemplate.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.UpdateTaskTemplateRows(System.Guid,System.Guid,System.Guid,System.Int32,System.Boolean)">
+            <summary>
+            Updates the order numbers of two affected rows
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="TaskGroupId"></param>
+            <param name="TaskTemplateId"></param>
+            <param name="RowChanged">The OrderNumber of the row that was changed</param>
+            <param name="MoveUp">True to move the spcified row up 1 position</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.DeleteTaskTemplate(PhotoApp.Web.TaskTemplate)">
+            <summary>
+            Delete the specified TaskTemplate.
+            </summary>
+            <param name="TaskTemplate">The TaskTemplate to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.DeleteTaskTemplate(System.Guid,System.Guid,System.Guid,System.Int32)">
+            <summary>
+            Delete the specified TaskTemplate.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="TaskGroupId">The TaskGroup id.</param>
+            <param name="TaskTemplateId">The task tenokate id.</param>
+            <param name="RowChanged">The row deleted id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Tasks.GetTasksByRole(System.Guid,System.String)">
+            <summary>
+            Get list of tasks by role
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="RoleName">The role name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetApplicationId(System.Guid)">
+            <summary>
+            Get the application id.
+            </summary>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.Get(System.Guid,System.Guid)">
+            <summary>
+            Gets the specified application id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.Update(PhotoApp.Web.Gallery,System.Boolean)">
+            <summary>
+            Updates the specified gallery.
+            </summary>
+            <param name="gallery">The gallery.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.DeleteGallery(PhotoApp.Web.Gallery)">
+            <summary>
+            Deletes the gallery.
+            </summary>
+            <param name="gallery">The gallery to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.DeleteGallery(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Deletes the gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetGalleries(System.Guid)">
+            <summary>
+            Get the galleries.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetSharedGalleries(System.Guid,System.Guid)">
+            <summary>
+            Get the shared galleries.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.LinkToSubject(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Links to subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.RemoveSubject(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the subject from the gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetSubjects(System.Guid,System.Guid)">
+            <summary>
+            Gets the subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetJob(System.Guid,System.Guid)">
+            <summary>
+            Gets the specified job from the gallery id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.LinkToCustomer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Link to Customer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.RemoveCustomer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove the customer from the gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetImages(System.Guid,System.Guid)">
+            <summary>
+            Get the images for this gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetJobImages(System.Guid,System.Guid)">
+            <summary>
+            Retrieve all of the images for a job.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetImages(System.Guid,System.Guid,System.Boolean,System.Guid)">
+            <summary>
+            Get the images for this customer's gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <param name="ShowApproved">Show approved images only.</param>
+            <returns>List of images including favorites.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetCustomerFavorites(System.Guid,System.Guid)">
+            <summary>
+            Get the customer's favorite images
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetCustomers(System.Guid,System.Guid)">
+            <summary>
+            Get the customers for this gallery.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Galleries.GetCatalog(System.Guid,System.Guid)">
+            <summary>
+            Get the customer catalog for the specifed GalleryId.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="GalleryId">The gallery id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Notes.Get(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get location object
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectId">The object id.</param>
+            <param name="NoteId">The noteid.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Notes.Update(PhotoApp.Web.Note,System.Boolean)">
+            <summary>
+            Update the note.
+            </summary>
+            <param name="Note">Note to update.</param>
+            <param name="IsAdd">If true add new.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Notes.Delete(PhotoApp.Web.Note)">
+            <summary>
+            Delete the note.
+            </summary>
+            <param name="Note">The note to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Notes.Delete(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Delete the note.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectId">The object id.</param>
+            <param name="NoteId">The note id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.Notes.GetNotes(System.Guid,System.Guid)">
+            <summary>
+            Get all notes
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectId">The object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.Get(System.Guid,System.Guid)">
+            <summary>
+            Get the specified subject object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <returns>The subject object.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetByID2(System.Guid,System.Guid,System.String,System.String)">
+            <summary>
+            Get the specified subject object by ID2.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobEventId">The job event id to exclude.</param>
+            <param name="ID2">The ID to match on.</param>
+            <param name="LastName">The lastname of the subject to match on.</param>
+            <returns>The subject object.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.Update(PhotoApp.Web.SubjectObject,System.Boolean)">
+            <summary>
+            Updates the specified subject.
+            </summary>
+            <param name="subject">The subject.</param>
+            <param name="isAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.CreateSubjectObject(System.Guid,System.Guid,System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            Creates the subject object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+            <param name="FirstName">The first name.</param>
+            <param name="LastName">The last name.</param>
+            <param name="Email">The email.</param>
+            <param name="DOB">The DOB.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.Delete(PhotoApp.Web.SubjectObject)">
+            <summary>
+            Deletes the specified subject.
+            </summary>
+            <param name="Subject">The subject.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.Delete(System.Guid,System.Guid)">
+            <summary>
+            Deletes a subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetAttributes(System.Guid,System.Guid)">
+            <summary>
+            Get a datarow of attributes for a subject
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject id.</param>
+            <returns>List of attributes for the subject.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetRecentLocation(System.Guid,System.Guid)">
+            <summary>
+            Get the most recent location for a subject
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject's id.</param>
+            <returns>The most recent location for a subject.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjects(System.Guid)">
+            <summary>
+            Get the subjects.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <returns>List of subjects for an application.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetRecentSubjects(System.Guid,System.Int32)">
+            <summary>
+            Get the subjects.
+            </summary>
+            <param name="ApplicationId">The app id.</param>
+            <param name="Number">Number of subjects to return</param>
+            <returns>List of subjects for an application.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.SearchSubjects(System.Guid,System.String)">
+            <summary>
+            Search subjects in the application
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.SearchSubjectsByLocation(System.Guid,System.String)">
+            <summary>
+            Search subjects in the application by Location
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Query">The search text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetJobs(System.Guid,System.Guid)">
+            <summary>
+            Get the jobs for a subject
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject's id.</param>
+            <returns>List of jobs for a subject.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetGalleries(System.Guid,System.Guid)">
+            <summary>
+            Get the galleries for a subject
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject's id.</param>
+            <returns>List of galleries for a subject.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetEventGalleryId(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Get the gallery id for a subject/event
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject's id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <returns>The gallery for this subject/event.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetCustomers(System.Guid,System.Guid)">
+            <summary>
+            Get the customers for a subject
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject's id.</param>
+            <returns>List of customers for a subject.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.LinkToCustomer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Links to customer.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.RemoveCustomer(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Remove customer from subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="SubjectObjectId">The subject object id.</param>
+            <param name="CustomerId">The customer id.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PhotoApp.Web.SubjectObjects.GetOrders(System.Guid,System.Guid)" -->
+        <member name="M:PhotoApp.Web.SubjectObjects.ImportSubject(System.Guid,System.Guid,System.Guid,System.String,System.Guid,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},PhotoApp.Web.AttributeValueCollection)">
+            <summary>
+            Create subject, galleries and map all associations.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="JobId">The job id.</param>
+            <param name="JobEventId">The job event id.</param>
+            <param name="GalleryPrefix">The prefix of the gallery name.</param>
+            <param name="ApplicationObjectId">The application object id (ie Student, Teacher).</param>
+            <param name="FirstName">The subject's first name.</param>
+            <param name="LastName">The subject's last name.</param>
+            <param name="ID2">The subject's unique id.</param>
+            <param name="LoginCode">The subject's login code.</param>
+            <param name="Email">The subject's email.</param>
+            <param name="DOB">The subject's date of birth.</param>
+            <param name="SubjectAttributes">The subject's attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.MergeSubjects(PhotoApp.Web.SubjectObject,PhotoApp.Web.SubjectObject)">
+            <summary>
+            Merge the specified subjects.
+            </summary>
+            <param name="NewSubject">The subject to keep.</param>
+            <param name="OldSubject">The subject to remove.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.MergeSubjects(System.Guid,System.Guid,System.Guid)">
+            <summary>
+            Merge the specified subjects.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="NewSubjectId">The subject id to keep.</param>
+            <param name="OldSubjectId">The subject id to remove.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GenerateLoginCode(System.Guid)">
+            <summary>
+            Generates a unique login code for a subject.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.IsValidLoginCode(System.String)">
+            <summary>
+            Determines if a string contains a sequence that matches a NSFW word.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.IsUniqueLoginCode(System.Guid,System.String)">
+            <summary>
+            Checks the login code for uniqueness
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LoginCode">The login code to check.</param>
+            <returns>True if unqiue, else False.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsBySchoolYearSearch(System.Guid,System.String,System.String)">
+            <summary>
+             This method will retrieve a list of subjects that had a shooting in a specific school year filtered by search text
+            </summary>
+            <param name="applicationId">The id of the current application</param>
+            <param name="schoolYear">The school year of the job event</param>
+            <param name="query">The text conditions of the search</param>
+            <returns>A DataTable of subject information</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsByLocationSearch(System.Guid,System.Guid,System.String)">
+            <summary>
+             This method will retrieve a list of subjects that had a shooting in a specific location filtered by search text
+            </summary>
+            <param name="applicationId">The id of the current application</param>
+            <param name="locationObjectId">The id of the location</param>
+            <param name="query">The text conditions of the search</param>
+            <returns>A DataTable of subject information</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsByLocationAndSchoolYearSearch(System.Guid,System.Guid,System.String,System.String)">
+            <summary>
+             This method will retrieve a list of subjects that had a shooting in a specific school year in a specific location filtered
+             by search text
+            </summary>
+            <param name="applicationId">The id of the current application</param>
+            <param name="schoolYear">The school year of the job event</param>
+            <param name="locationObjectId">Unique identifier for the location</param>
+            <param name="query">The text conditions of the search</param>
+            <returns>A DataTable of subject information</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsByLocationAndSchoolYear(System.Guid,System.Guid,System.String)">
+            <summary>
+             This method will retrieve a list of subjects that had a shooting in a specific school year in a specific location
+            </summary>
+            <param name="applicationId">The id of the current application</param>
+            <param name="schoolYear">The school year of the job event</param>
+            <param name="locationId">Unique identifier for the location</param>
+            <returns>A DataTable of subject information</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsExtendedByLocationAndSchoolYear(System.Guid,System.Guid,System.String)">
+            <summary>
+             Created by MAB/HSC on 7/18/11: This method will retrieve a list of subjects that had a shooting in a specific school year in a specific location (including grade and teacher)
+            </summary>
+            <param name="applicationId">The id of the current application</param>
+            <param name="locationId">Unique identifier for the location</param>
+            <param name="schoolYear">The school year of the job event</param>
+            <returns>A DataTable of subject information including Grade and Teacher.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetAllSchoolYears">
+            <summary>
+             Grabs all school years that have been inserted by MugsyClicks admin users, will help them to maintain
+             a persistent naming convention
+            </summary>
+            <returns>A DataTable full of of School Years (JobNames)</returns>
+        </member>
+        <member name="M:PhotoApp.Web.SubjectObjects.GetSubjectsByAmount(System.Guid,System.Int32)">
+            <summary>
+            Get the subjects.
+            </summary>
+            <param name="applicationId">The app id.</param>
+            <param name="number">Number of subjects to return</param>
+            <returns>List of subjects for an application.</returns>
+        </member>
+        <member name="T:PhotoApp.Web.PhotographerCommissionOrders">
+            <summary>
+            Created by: Mason Blake - High Seas Consulting
+            Date Created: 4/19/2011
+            Description: New object to calculate photographer commissions without affecting the previous report or object.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.PhotographerOrders">
+            <summary>
+            DataTable of all Orders for this photographer as well as the other data like events, jobs, subjects, commission, etc.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.AllPhotoLocations">
+            <summary>
+            DataTable of all Locations(schools) this photographer has shot at during the given time period.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.UniqueYearsPerSchool">
+            <summary>
+            DataTable of Unique School Years per School as well as a tally of their Orders and CommissionOwed.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.UniqueEventsPerSchoolYear">
+            <summary>
+            DataTable of Shoot Events per School Year as well as a tally of their Orders and CommissionOwed.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.UniqueProductsPerEvent">
+            <summary>
+            DataTable of Products ordered per Shoot Event per School Year as well as a tally of their Orders and CommissionOwed.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.StartDate">
+            <summary>
+            The StartDate that applies to the data contained in this object and report.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.EndDate">
+            <summary>
+            The EndDate that applies to the data contained in this object and report.
+            </summary>
+        </member>
+        <member name="F:PhotoApp.Web.PhotographerCommissionOrders.PhotographerId">
+            <summary>
+            The PhotographerID that is the subject of this object and report.
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.#ctor(System.Guid,System.Guid,System.DateTime,System.DateTime,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="appId"></param>
+            <param name="photographerId"></param>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <param name="taxRate"></param>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.GetSchoolYearsByLocationId(System.Guid)">
+            <summary>
+            Filters the main PhotographerOrders DataTable for a LocationObjectId (school) only.
+            </summary>
+            <param name="locationObjectId">The ID of the LocationObject (school).</param>
+            <returns>DataTable with School, TotalOrders, CommissionOwed.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.GetEventsByJobId(System.Guid)">
+            <summary>
+            Filters the main PhotographerOrders DataTable for a JobId (school year) only.
+            </summary>
+            <param name="jobId">The JobId for the School Year.</param>
+            <returns>DataTable with School Year, Total Orders, CommissionOwed.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.GetProductsByEventId(System.Guid)">
+            <summary>
+            Filters the main PhotographerOrders DataTable for each Product ordered (and if commission has been paid) per Event.
+            </summary>
+            <param name="eventId">The JobEventId to get ordered products for.</param>
+            <returns>DataTable with Event, Products, Commission Paid, Orders and CommiossionOwed.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.getLocations">
+            <summary>
+             Returns all of the Photographer's locations
+            </summary>
+            <returns>
+             LocationName varchar(50), and LocationObjectId uniqueidentifier
+            </returns>
+        </member>
+        <member name="M:PhotoApp.Web.PhotographerCommissionOrders.getAllPhotographerOrders">
+            <summary>
+            NEW report by HSC to get the Photographer Orders 
+            </summary>
+            <param name="PhotographerId"></param>
+            <param name="StartDate"></param>
+            <param name="EndDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationSettings.Get(System.Guid,System.String)">
+            <summary>
+            Get the value for the provided key for a given application.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Setting">The key for the value you want.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationSettings.Set(System.Guid,System.String,System.String)">
+            <summary>
+            Get the value for the provided key for a given application.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="Key">The key for the value you want.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.Get(System.Guid,System.Guid)">
+            <summary>
+            Get the specified application object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.Update(PhotoApp.Web.ApplicationObject,System.Boolean)">
+            <summary>
+            Updates the specified application object.
+            </summary>
+            <param name="AppObject">The application object.</param>
+            <param name="IsAdd">Add or Update</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.Delete(PhotoApp.Web.ApplicationObject)">
+            <summary>
+            Delete the specified application object.
+            </summary>
+            <param name="AppObject">The application object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.Delete(System.Guid,System.Guid)">
+            <summary>
+            Delete an application object.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.GetApplicationObjects(System.Guid,PhotoApp.Web.ObjectTypes)">
+            <summary>
+            Get the application objects
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectType">The object type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.GetApplicationObjectId(System.Guid,System.String)">
+            <summary>
+            Get the application object id.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectName">The object name.</param>
+            <returns>The application object id.</returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.GetApplicationObjectName(System.Guid,PhotoApp.Web.ObjectTypes)">
+            <summary>
+            Get the application object name
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ObjectType">The object type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.GetObjectTypes">
+            <summary>
+            Get the object types
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.AddLevel(System.Guid,System.Guid,System.Int32)">
+            <summary>
+            Add an application object to levels.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+            <param name="OrderNum">The order number.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotoApp.Web.ApplicationObjects.RemoveLevel(System.Guid,System.Guid,System.Int32)">
+            <summary>
+            Remove an application object from levels.
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="ApplicationLevelId">The application level id (row id).</param>
+            <param name="OrderNum">The order number.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PhotoApp.Web.ApplicationObjects.SwapPositions(System.Guid,System.Guid,System.String,System.Int32,System.Boolean)" -->
+        <member name="M:PhotoApp.Web.ApplicationObjects.GetAttributes(System.Guid,System.Guid)">
+            <summary>
+            Get attributes for this application object.
+            </summary>
+            <param name="AppId">The application id.</param>
+            <param name="ApplicationObjectId">The application object id.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PhotoApp.Web.OrderStats">
+            <summary>
+             Methods used specifically for the Order Reporting
+            </summary>
+        </member>
+        <member name="M:PhotoApp.Web.OrderStats.getPhotographerName(System.Guid)">
+            <summary>
+             Just returns the name of the photographer for that order
+            </summary>
+            <param name="orderId"></param>
+            <returns>(String) PhotographerFirstName + ' ' + PhotographerLastName OR "" if null</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderStats.GetLocationNamesOfOrders(System.Guid)">
+            <summary>
+            Returns a table of just the Location names and ids where orders have been places
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <returns>LocationName varchar(50), LocationObjectId uniqueidentifier</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderStats.GetJobEventNamesOfOrders(System.Guid,System.Guid)">
+            <summary>
+            Returns a table of just the JobEvent names and ids where orders have been places
+            </summary>
+            <param name="ApplicationId">The application id.</param>
+            <param name="LocationObjectId">The location id.</param>
+            <returns>JobEventName varchar(50), JobEventId uniqueidentifier, JobName varchar(50), JobId uniqueidentifier</returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderStats.GetOrderItemStats(System.Guid,System.Guid,System.DateTime,System.DateTime,System.Double)">
+            <summary>
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId"></param>
+            <param name="StartDate"></param>
+            <param name="EndDate"></param>
+            <param name="SalesTax"></param>
+            <returns>
+             LocationName varchar(50), 
+             JobName varchar(50), 
+             JobEventName varchar(50), 
+             JobEventDate datetime, 
+             PhotographerFirstName varchar(100), 
+             PhotographerLastName varchar(100), 
+             FullfilledSubjectOrders int, 
+             PendingSubjectOrders int, 
+             CancelledSubjectOrders int, 
+             TotalSubjectOrders int, 
+             FullfilledAverage real, 
+             PendingAverage real, 
+             CancelledAverage real, 
+             TotalAverage real, 
+             FullfilledSubTotal real, 
+             PendingSubTotal real, 
+             CancelledSubTotal real, 
+             TotalSubTotal real, 
+             ApplicationId uniqueidentifier, 
+             LocationObjectId uniqueidentifier, 
+             JobId uniqueidentifier, 
+             JobEventId uniqueidentifier, 
+             PhotographerId uniqueidentifier
+            </returns>
+        </member>
+        <member name="M:PhotoApp.Web.OrderStats.GetOrderStats(System.Guid,System.Guid,System.DateTime,System.DateTime,System.Double)">
+            <summary>
+            </summary>
+            <param name="ApplicationId"></param>
+            <param name="JobEventId"></param>
+            <param name="StartDate"></param>
+            <param name="EndDate"></param>
+            <param name="SalesTax"></param>
+            <returns>
+             LocationName varchar(50), 
+             JobName varchar(50), 
+             JobEventName varchar(50), 
+             JobEventDate datetime, 
+             PhotographerFirstName varchar(100), 
+             PhotographerLastName varchar(100), 
+             FullfilledSubjectOrders int, 
+             PendingSubjectOrders int, 
+             CancelledSubjectOrders int, 
+             TotalSubjectOrders int, 
+             FullfilledAverage real, 
+             PendingAverage real, 
+             CancelledAverage real, 
+             TotalAverage real, 
+             FullfilledSubTotal real, 
+             PendingSubTotal real, 
+             CancelledSubTotal real, 
+             TotalSubTotal real, 
+             ApplicationId uniqueidentifier, 
+             LocationObjectId uniqueidentifier, 
+             JobId uniqueidentifier, 
+             JobEventId uniqueidentifier, 
+             PhotographerId uniqueidentifier
+            </returns>
+        </member>
+    </members>
+</doc>

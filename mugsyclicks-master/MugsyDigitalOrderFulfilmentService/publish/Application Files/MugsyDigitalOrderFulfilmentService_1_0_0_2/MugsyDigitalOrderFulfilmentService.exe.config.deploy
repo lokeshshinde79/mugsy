@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+
+    <!-- local-->
+    <!--<add name="Ecommerce" connectionString="Data Source=DESKTOP-3A2G79F\SQLEXPRESS08;Initial Catalog=PhotoAppCommerce;Integrated Security=True; Connection Timeout=1800;Pooling=true; Min Pool Size=20; Max Pool Size=200; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="Site" connectionString="Data Source=DESKTOP-3A2G79F\SQLEXPRESS08;Initial Catalog=PhotoApp;Integrated Security=True; Connection Timeout=1800;Pooling=true; Min Pool Size=20; Max Pool Size=200; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="Taxes" connectionString="Data Source=DESKTOP-3A2G79F\SQLEXPRESS08;Initial Catalog=PhotoApp;Integrated Security=True; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="CountryAndStatesConnectionString" connectionString="Data Source=DESKTOP-3A2G79F\SQLEXPRESS08;Initial Catalog=PhotoApp;Integrated Security=True; Connection Timeout=1800;Pooling=true; Min Pool Size=20; Max Pool Size=200; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />-->
+
+    <!--Dev-->
+    <!--<add name="Ecommerce" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoAppCommercedev;User ID=mugsydev; Password=@minD3V14!; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="Site" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoAppdev;User ID=mugsydev; Password=@minD3V14!; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="Taxes" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoAppdev;User ID=mugsydev; Password=@minD3V14!; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+  <add name="CountryAndStatesConnectionString" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoAppdev;User ID=mugsydev; Password=@minD3V14!; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />-->
+
+    <!-- Testing -->
+    <!--<add name="Ecommerce" connectionString="Data Source=183.182.86.206;Initial Catalog=PhotoAppCommerce;User ID=sofmen; Password=s0fm3n3@Mugsy;" providerName="System.Data.SqlClient" />
+  <add name="Site" connectionString="Data Source=183.182.86.206;Initial Catalog=PhotoApp;User ID=sofmen; Password=s0fm3n3@Mugsy;" providerName="System.Data.SqlClient" />-->
+
+    <!-- dev db-->
+    <!--<add name="Ecommerce" connectionString="Server=unreal.novelprojects.com\sql2005; Initial Catalog=PhotoAppCommerce; User ID=mugsyclick_web; Password=vE9a9rEk; Connection Timeout=1800;Pooling=true; Min Pool Size=20; Max Pool Size=200;" providerName="System.Data.SqlClient" />
+    <add name="Site" connectionString="Server=unreal.novelprojects.com\sql2005; Initial Catalog=PhotoApp-OCT212013; User ID=mugsyclick_web; Password=vE9a9rEk; Connection Timeout=1800;Pooling=true; Min Pool Size=20; Max Pool Size=200;" providerName="System.Data.SqlClient" />-->
+
+
+
+    <!-- Live Production-->
+    <add name="Ecommerce" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoAppCommerce;User ID=mugsyprod; Password=D8@Min!4; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+    <add name="Site" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoApp;User ID=mugsyprod; Password=D8@Min!4; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+    <add name="Taxes" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoApp;User ID=mugsyprod; Password=D8@Min!4; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+    <add name="CountryAndStatesConnectionString" connectionString="Data Source=mugsydb.cloudapp.net;Initial Catalog=PhotoApp;User ID=mugsyprod; Password=D8@Min!4; Asynchronous Processing=true;" providerName="System.Data.SqlClient" />
+
+  </connectionStrings>
+  <appSettings>
+
+    <!-- Global -->
+    <add key="AppId" value="0e2f5b05-7374-4094-82c6-340b2b21f15b" />
+    <add key="FCKEditor:BasePath" value="~/fckeditor/" />
+    <add key="FCKeditor:UserFilesPath" value="~/" />
+    <add key="DocumentStoragePath" value="~/docs/" />
+    <add key="FindSubjectEmail" value="mahesh.soni@sofmen.com" />
+    <add key="CreateAccountFormEmailTo" value="mahesh.soni@sofmen.com" />
+    <add key="RequestAccessCodeFormEmailTo" value="mahesh.soni@sofmen.com" />
+    <add key="EnterLeadEmailTo" value="mahesh.soni@sofmen.com" />
+    <add key="EnableUrlRewriting" value="true" />
+    <add key="DownloadLinkExpirationLength" value="30" />
+    <add key="CalloutImagePath" value="http://admin.mugsyclicks.local/images/callout/" />
+    <add key="Backend" value="localhost:57628/admin" lockItem="true" />
+    <add key="ScheduleJobToEmail" value="mahesh.soni@sofmen.com" />
+    <add key="CommandTimeOut" value="200" />
+    <add key="EnterLeadEmailCC" value="mahesh.soni@sofmen.com" />
+
+    <!-- Ecommerce -->
+    <add key="NPCommerceAppId" value="0e2f5b05-7374-4094-82c6-340b2b21f15b" />
+    <add key="EcommerceConnectionString" value="Ecommerce" />
+    <add key="PhotoAppConnectionString" value="Site" />
+    <add key="AutoCompleteConnectionString" value="Site" />
+    <add key="CustomerServiceEmail" value="mahesh.soni@sofmen.com" />
+    <!-- "tyler.joyner@atlanticbt.com"-->
+    <add key="OrderEmailReplyTo" value="mahesh.soni@sofmen.com" />
+    <add key="DeluxeProductId" value="a8fee54f-f128-48bd-b69a-c972df414717"/>
+
+    <!-- CMS -->
+    <add key="EditableConnectionString" value="Site" />
+    <add key="CMSApprovalFromEmail" value="mahesh.soni@sofmen.com" />
+    <add key="CMSTemplates" value="Subpage Template|templates/subpage.aspx" />
+    <add key="AccessRolesToExclude" value="Accounting,Master Vendor,Order Entry,NovelProjects,Power User,Vendor" />
+
+    <!-- Used for Error Emails or as a fall back from the App.MailServer settings -->
+    <add key="SiteName" value="MugsyClicks" lockItem="true" />
+    <add key="FromEmail" value="mahesh.soni@sofmen.com" />
+    <add key="ToEmail" value="mahesh.soni@sofmen.com" />
+    <add key="TaxEmail" value="mahesh.soni@sofmen.com" />
+    <add key="UseSSL" value="True" />
+    <add key="IgnoreHosts" value="localhost, mugsyclicks.local, 10.0.0.59, novel, testing.novelprojects.com, dev.mugsyclicks.com" lockItem="true" />
+    <add key="SupressCodes" value="404" lockItem="true" />
+    <add key="IgnoreErrors" value="System.IO.FileNotFoundException" lockItem="true" />
+    <add key="CookieName" value="MugsyClicks" lockItem="true" />
+    <add key="MainDomain" value="http://mugsyclicks.local" lockItem="true" />
+    <add key="IgnoreRedirects" value="localhost, mugsyclicks.local, 10.0.0.59, novel, testing.novelprojects.com, dev.mugsyclicks.com" lockItem="true" />
+
+    <!-- Used for Outdated Browsers -->
+    <add key="OutdatedBrowserUrl" value="~/outdated_browser.htm" />
+    <!--<add key="OutdatedBrowserUrl" value="http://www.mugsyclicks.com/outdated_browser.htm"/>-->
+    <add key="aspnet:MaxHttpCollectionKeys" value="10000" />
+
+    <!--Used For Sending Mails In AddNewSchool.aspx & SchoolServiceItems.aspx - Mugsy-42-->
+    <add key="FrontBaseURL" value="http://localhost:20284/web/" />
+    <add key="AdminBaseURL" value="http://localhost:57628/admin" />
+
+    <!--Used For CC Settings for Development and Live Environment-->
+    <add key="IsCCInDebugMode" value="false" />
+    <add key="GatewayHostAddress" value="https://test.authorize.net/gateway/transact.dll" />
+    <!--Local & Dev Environment      -->
+    <!--<add key="GatewayHostAddress" value="https://secure.authorize.net/gateway/transact.dll" />-->
+    <!--Live / Production Environment-->
+
+    <!--<add key="BayPhotoFTPServer" value="ftp://mugsy.bayphoto.com" />
+    <add key="BayPhotoFTPUser" value="mugsuser"/>
+    <add key="BayPhotoFTPPassword" value="MUg$yFtPCl1ck$1"/>-->
+    <add key="BayPhotoFTPServer" value="ftp://mugsydb.cloudapp.net/BayFTP/" />
+    <add key="BayPhotoFTPUser" value="MugsyDBAdmin"/>
+    <add key="BayPhotoFTPPassword" value="14Mug@DB!"/>
+
+    <!--FTP Error EMail-->
+    <add key="ErrorEmailAddresses" value="mahesh.soni@sofmen.com"/>
+
+    <!-- Used for Request Username / Password Emails -->
+    <add key="UserPasswordRequestEMail" value="mahesh.soni@sofmen.com" />
+
+    <!-- Used for School Year Book Request - On page web\schools\yearbooks.aspx.cs -->
+    <add key="SchoolYearBookRequest" value="mahesh.soni@sofmen.com" />
+
+    <!--These Product are treated as DigiFiles and Handle180 is not applied - Mugsy-144-JR-->
+    <add key="DigitalPhotosNames" value="BAY_UNIT_DIGIFILE_HRDB1,BAY_UNIT_DIGIFILE_HRDB2,BAY_UNIT_DIGIFILE_HRDB6,BAY_UNIT_DIGIFILE_LRDB1,BAY_UNIT_DIGIFILE_LRDB2,BAY_UNIT_DIGIFILE_LRDB6,RETOUCH_Basic,Retouch_Eyes,RETOUCH_Makeover,BAY_DIGIFILE_HRCD1,BAY_DIGIFILE_HRCD2,BAY_DIGIFILE_HRCD6,BAY_UNIT_DIGIFILE_HRCD1,BAY_UNIT_DIGIFILE_HRCD2,BAY_UNIT_DIGIFILE_HRCD6,BAY_DIGIFILE_HRDB1,BAY_DIGIFILE_HRDB2,BAY_DIGIFILE_HRDB6,BAY_DIGIFILE_LRDB1,BAY_DIGIFILE_LRDB2,BAY_DIGIFILE_LRDB6" />
+    <add key="agreement_approval_mail" value="mahesh.soni@sofmen.com"/>
+    <add key="AccountsMailIds" value="pronob.mukharjee@sofmen.com" />
+    <add key="SuperAdminMailds" value="mahesh.soni@sofmen.com" />
+    <add key="IsSendAccountsDeleteMails" value="True" />
+    <add key="IsSendSuperAdminDeleteMails" value="True" />
+    <add key="DBLogEntry" value="true" />
+    <add key="CountryAndStatesConnectionString" value="CountryAndStatesConnectionString"/>
+    <add key="GatewayLogEmail" value="mahesh.soni@sofmen.com,pronob.mukharjee@sofmen.com" />
+    <!--Photographer apply email-->
+    <add key="applyto_email" value="mahesh.soni@sofmen.com" />
+
+    <add key="SandBoxMode" value="true"/>
+    <add key="Token" value="AFcWxV21C7fd0v3bYYYRCpSSRl31A4fsbnfDmKLQw2ZsHnQFX7JoEzRw"/>
+    <add key="PayPalEmail" value="manoj.shrivastava-facilitator@sofmen.com"/>
+    <!--sandbox site url only if you hosted in live change sandbox to live paypal URL-->
+    <add key="PayPalSubmitUrl" value="https://www.paypal.com/cgi-bin/webscr"/>
+    <add key="PayPalSandBoxSubmitUrl" value="https://www.sandbox.paypal.com/cgi-bin/webscr"/>
+    <add key="FailedURL" value="http://dev.mugsyclicks.com/cart/index.aspx"/>
+    <add key="SuccessURL" value="http://dev.mugsyclicks.com/checkout/PaymentSuccess.aspx"/>
+    <add key="NotifyURL" value="http://dev.mugsyclicks.com/checkout/PaymentSuccess.aspx"/>
+    <!--<add key="PDTToken" value="8HJDeli-mWnoSuQl9icv40WgOECFf_guFdzBsDxhpkFJqSZQyt9pDx4Zedm"/>-->
+    <add key="PDTToken" value="bGPFAPoRJl4RLVOWh0_WC_jBGrjvwaaeODVZ-0vKV_0mOi6wEK51vJLYqAK"/>
+
+    <add key="IsPayPalActive" value="true"/>
+    <add key="AgreementSubmitionEmail" value="mahesh.soni@sofmen.com"/>
+    <add key="mugsy_api" value="http://localhost:6525/api/"/>
+
+    <add key="DashboardUploads" value="mugsydashboarduploads"/>
+    <add key="S3AccessKeyId" value="AKIAI475R2SRYG565MNA"/>
+    <add key="S3SecretKey" value="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"/>
+
+    <add key="Re-Shoot" value="Original,Re-Shoot"/>
+    <!--Service Product Year Book Image/datatype-->
+    <add key="ServiceProductImageData" value="PSPA STANDARD,Other"/>
+
+    <add key="SubjectDataDirDownloadPath" value="SubjectDataDir"/>
+
+    <!--FAQ Email Form Email-->
+
+
+    <add key="DigitalFileEmailTemplate" value="0540DC21-A5AD-4CB4-A646-779335B3C204"/>
+    <add key="DigiOrderNotificationEmail" value="digitalorders@mugsyclicks.com"/>
+    <add key="DigiOrderNotificationName" value="MugsyClicks Customer Service "/>
+    <add key="MultiGalleryKey" value="MultiGalleries"/>
+  </appSettings>
+</configuration>

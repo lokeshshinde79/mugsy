@@ -1,0 +1,1 @@
+Exception in 'PhotoApp.Web.MessagingServices -> GetRequestedMessageInfo' :The type initializer for 'PhotoApp.Web.PhotoApp' threw an exception.

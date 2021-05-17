@@ -1,0 +1,25 @@
+﻿/** Modal Styles **/
+#SiteManagerPopup { display:none; position:absolute; left:50%; top:15%; background:#FFF; color:#333; border:1px solid #333; padding:10px; }
+#SiteManagerPopup .npTitle { background:#AAA; padding:3px; margin:0; border:0; }
+#SiteManagerPopup .npTitle h1 { color:White; font-family:Verdana,Arial; font-weight:bold; font-size:14px; line-height:14px; padding:5px; margin:0; overflow:hidden; }
+#SiteManagerPopup .npContent { padding:10px 0 0 0; margin:0; }
+#SiteManagerPopup .modalClose span { display:none; }
+#SiteManagerPopup .modalClose { border:0; margin:2px 2px 0 0; cursor:pointer; width:20px; height:20px; display:block; float:right; background:transparent url('<%= WebResource("NovelProjects.Web.images.modal_close.png") %>') 0 0 no-repeat; }
+#SiteManagerPopup .modalClose:hover { background-position:0 -20px; }
+
+.NodeAllowChildren { display:none; }
+
+#SMProperties { padding:20px; height:390px; font-size:12px; font-family:Verdana; line-height:18px; }
+	#SMProperties input { font-family:Verdana,Arial; font-size:12px; line-height:16px; }
+#SMAccess { height:418px; font-size:12px; font-family:Verdana; line-height:18px; }
+#SMEditContent { padding:0; font-size:12px; font-family:Verdana; line-height:18px; }
+.SMTabs  { list-style:none; list-style-type:none; }
+
+#SMIframe .ContentHeading { font-size:16px; font-weight:bold; font-family:Verdana; line-height:22px; padding:5px; margin:10px 0; background:#999; color:#FFF; }
+#SMIframe p.npSpace { clear:both; height:10px; font-size:10px; line-height:10px; padding:0; margin:0; }
+
+.holder { border:2px dashed #000; }
+
+/** Jquery tooltip popup **/
+#tooltip { position:absolute; z-index:3000; border:1px solid #111; background:#FFF; padding:5px; opacity:1; cursor:pointer; }
+#tooltip h3, #tooltip div { font:12px/14px Arial; color:#000; margin:0; }
